@@ -84,10 +84,6 @@ são representados na imagem abaixo. Os pequenos satélites começaram a ser uti
 universidade de maneira padrão no mundo todo para desenvolvimento de competências para
 engenharia aeroespacial inicialmente.
 
-# Seletor de Frutas
-
-Mecanismo de seleção de frutas.
-
 ```eval_rst
 .. figure:: assets/intro/img1.png
   :align: center
