@@ -48,11 +48,22 @@ sempre foi um desafio em que universidades ao redor do mundo tem cada vez mais a
 esse desafio. Dentro desta classe de satélite temos como destaque os cubesat, Cansat,
 PocketQube.
 
-|                                      | Cubesat                | Cansat                 | PocketCube            |
-| ------------------------------------ | ---------------------- | ---------------------- | --------------------- |
-| Unidade                              | cubo de 10cm de aresta | 1 lata de refrigerante | Cubo de 5cm de aresta |
-| Peso médio por unidade               | 1kg                    | 400 gramas             | 250 gramas            |
-| Custo médio delançamento por unidade | 100.000 USD            | 50.000 USD             | 10.000 USD            |
+
+```eval_rst
++----------------+----------------+----------------+----------------+
+|                | Cubesat        | Cansat         | PocketCube     |
++================+================+================+================+
+| **Unidade**    | cubo de 10cm   | 1 lata de      | Cubo de 5cm de |
+|                | de aresta      | refrigerante   | aresta         |
++----------------+----------------+----------------+----------------+
+| **Peso médio   | 1kg            | 400 gramas     | 250 gramas     |
+| por unidade**  |                |                |                |
++----------------+----------------+----------------+----------------+
+| **Custo médio  | 100.000 USD    | 50.000 USD     | 10.000 USD     |
+| de lançamento   |                |                |                |
+| por unidade**  |                |                |                |
++----------------+----------------+----------------+----------------+
+```
 
 Com o custo mais barato de produção e lançamento países como Guatemala, Quênia,
 Nicarágua, ou seja, países sem nenhuma tradição em inovação tecnológica acessaram o espaço
@@ -73,7 +84,21 @@ são representados na imagem abaixo. Os pequenos satélites começaram a ser uti
 universidade de maneira padrão no mundo todo para desenvolvimento de competências para
 engenharia aeroespacial inicialmente.
 
-![alt](img/img1.png)
+# Seletor de Frutas
+
+Mecanismo de seleção de frutas.
+
+```eval_rst
+.. figure:: assets/intro/img1.png
+  :align: center
+  :width: 400
+  :alt: Alternative text
+
+  ..
+
+  Fig 1: Estrutura dos subsistemas de um satélite
+
+```
 
 Porém como a engenharia aeroespacial é uma engenharia altamente integrativa, ou seja,
 necessita de conhecimentos de outras engenharias para construção de um objeto espacial, os

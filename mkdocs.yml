@@ -1,7 +1,0 @@
-site_name: PocketCube
-plugins:
-    - search
-theme: readthedocs
-nav:
-    - Início: index.md
-    - Introdução: intro/index.md
