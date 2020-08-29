@@ -73,7 +73,6 @@ Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi ero
 Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Sapien in monti palavris qui num significa nadis i pareci latim.
 
 ### Equipe
-
 ```eval_rst
 ================== ============= ====================
 **Nome**           **Papel**     **GitHub**
@@ -81,7 +80,7 @@ Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi ero
 Ícaro Oliveira     Desenvolvedor `icarooliv`_
 ================== ============= ====================
 
-.. icarooliv: https://github.com/icarooliv
+.. _icarooliv: https://github.com/icarooliv
 ```
 
 ### Colaboradores
