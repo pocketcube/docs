@@ -49,21 +49,12 @@ esse desafio. Dentro desta classe de satélite temos como destaque os cubesat, C
 PocketQube.
 
 
-```eval_rst
-+----------------+----------------+----------------+----------------+
+
 |                | Cubesat        | Cansat         | PocketCube     |
-+================+================+================+================+
-| **Unidade**    | cubo de 10cm   | 1 lata de      | Cubo de 5cm de |
-|                | de aresta      | refrigerante   | aresta         |
-+----------------+----------------+----------------+----------------+
-| **Peso médio   | 1kg            | 400 gramas     | 250 gramas     |
-| por unidade**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **Custo médio  | 100.000 USD    | 50.000 USD     | 10.000 USD     |
-| de lançamento   |                |                |                |
-| por unidade**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-```
+|-|-|-|-|
+| **Unidade**    | cubo de 10cm de aresta    | 1 lata de refrigerante      | Cubo de 5cm de aresta |
+| **Peso médio por unidade**   | 1kg            | 400 gramas     | 250 gramas     |
+| **Custo médio de lançamento por unidade** | 100.000 USD    | 50.000 USD     | 10.000 USD     |
 
 Com o custo mais barato de produção e lançamento países como Guatemala, Quênia,
 Nicarágua, ou seja, países sem nenhuma tradição em inovação tecnológica acessaram o espaço
