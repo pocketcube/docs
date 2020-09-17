@@ -79,8 +79,11 @@ Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi ero
 ================== ============= ====================
 Ícaro Oliveira     Desenvolvedor `icarooliv`_
 ================== ============= ====================
+Andrew Lucas       Desenvolvedor `andrewlucasgs`_
+================== ============= ====================
 
 .. _icarooliv: https://github.com/icarooliv
+.. _andrewlucasgs: https://github.com/andrewlucasgs
 ```
 
 ### Colaboradores
@@ -90,6 +93,8 @@ Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi ero
 **Nome**           **Papel**    
 ================== =============
 Ícaro Oliveira     Desenvolvedor
+================== =============
+Andrew Lucas       Desenvolvedor
 ================== =============
 ```
 
