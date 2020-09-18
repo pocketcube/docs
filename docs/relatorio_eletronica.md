@@ -39,6 +39,7 @@ Segue o comparativo de microcontroladores que são utilizados normalmente em pro
 | Watchdog | 1 Watchdog | 4 Watchdogs | 1 Watchdog |
 | WiFi | Somente com Shield | 2,4 GHz, 802.11 b/g/n/e/i (802.11n até 150 Mbps) | 802.11 b/g/n |
 | Dimensões(mm) | 68 x 53 x 12  | 52 x 25 x 6 | 65 x 30 x 5 |
+====================================================
 ```
 
 Da fabricante chinesa Espressif Systems, a ESP32 é a solução mais integrada para aplicativos de Wi-Fi + Bluetooth da indústria com menos de 10 componentes. A ESP32 integra o interruptor da antena, RF balun, amplificador de potência, amplificador de recepção de baixo ruído, filtros, e módulos de gerenciamento de energia. Como tal, toda a solução ocupa uma área mínima de placa de circuito impresso (PCB). ESP32 é projetado para aplicativos móveis e Internet das Coisas (IoT). Tem muitos recursos dos chips de baixo consumo de última geração, incluindo controle de clock de alta resolução, modos de energia e escalonamento de energia dinâmico. Apresenta um coprocessador de ultra-baixo consumo (ULP Coprocessor), que permite delegar algumas tarefas (simples) para execução enquanto os processadores principais estão desligados. Ele possui suporte a SPI, UART e I2C (protocolos relativamente comuns), como também suporte a Infravermelho (IR) e SDIO (para interface com cartão de memória), e começa a se diferenciar, tendo CAN, Ethernet, DAC, Sensor de Toque, e I2S, que é uma interface de comunicação útil para comunicar com dispositivos de áudio.  
