@@ -10,6 +10,8 @@ Bem vindo à documentação do Pocket Cube!
    :maxdepth: 2
    :caption: Conteúdos:
 
-   docs/pocket_cube
    docs/intro
    docs/tap
+   docs/relatorio_estrutura
+   docs/relatorio_eletronica
+
