@@ -65,7 +65,6 @@ Da fabricante chinesa Espressif Systems, a ESP32 é a solução mais integrada p
 
 Dada suas características a ESP32 será o modelo a ser utilizado. Serão utilizados dois microcontroladores ESP32 no projeto, um no satélite para receber os dados dos sensores, reuní-los e enviar para um segundo microcontrolador em uma estação solo. Este irá receber os dados e enviá-los para o servidor local. A comunicação entre o satélite e a estação solo escolhida foi a comunicação LoRa por ser bastante flexível quanto ao local: Tanto em áreas urbanas quanto rurais, atendendo escolas nas cidades ou no campo. A LoRa também se caracteriza pela redução na complexidade do hardware, além de ter baixo consumo de energia. O microcontrolador escolhido tem módulo integrado com suporte para a LoRa.  
 
-![](assets/relatorio_eletronica/esp32-esquema.png)
 
 ```eval_rst
 .. figure:: assets/relatorio_eletronica/esp32-esquema.png
@@ -90,7 +89,6 @@ O sensor de pressão é um sensor de pressão barométrica absoluta com precisã
 O BME280 é importante para o projeto primeiramente por ter dimensões pequenas, usar pouca carga de energia para ser acionado e calcular temperatura, pressão e umidade. É bastante preciso para o que é necessário para o projeto. A figura X ilustra o módulo e sua forma de ligação Sensor BME280 é bem simples, contando com somente com 4 fios, sendo 2 para alimentação que são os pinos VCC e GND e 2 para comunicação I2C, o SCL e SDA.  
 
 
-![](assets/relatorio_eletronica/BME280.png)
 
 ```eval_rst
 .. figure:: assets/relatorio_eletronica/BME280.png
@@ -110,7 +108,6 @@ Os dispositivos MPU fornecem a primeira solução de processador de movimento de
 
 Foi estudado mais três tipos de sensores semelhantes ao MPU 6050: Itg3200 + Adxl345, o GY-BMI160 e o Mpu 9250 que é da mesma marca do módulo escolhido. O primeiro é o menor dos três, medindo 22x17x1 mm, e seu custo foi de R$ 98,99. O concorrente companheiro do marca foi o mais barato dos três custando R$ 58,50, porém, possui maiores dimensões tornando menos menos viável sua utilização para o projeto. O MPU6050 foi escolhido por suas dimensões (20x16x1mm) e peso (2,6 g), por seu valor econômico (R$ 17,00) e facilidade de implementação..A figura abaixo mostra o diagrama de blocos e em seguida o próprio MPU 6050.
 
-![](assets/relatorio_eletronica/MPU6050-1.png)
 
 ```eval_rst
 .. figure:: assets/relatorio_eletronica/MPU6050-1.png
@@ -124,7 +121,6 @@ Foi estudado mais três tipos de sensores semelhantes ao MPU 6050: Itg3200 + Adx
 
 ```
 
-![](assets/relatorio_eletronica/MPU6050-2.png)
 
 ```eval_rst
 .. figure:: assets/relatorio_eletronica/MPU6050-2.png
@@ -145,7 +141,6 @@ A série de módulos NEO-6 é uma família de receptores GPS autônomos apresent
 No estudo feito para a escolha do módulo GPS do projeto foram considerados dois modelos: GY-GPSV3-NEO M8N e o GPS NEO-6M. Por suas especificações, os dois demonstram desempenho semelhantes, porém o primeiro dispõe de superfície de 36 x 25 mm contra 16 x 12,2 do segundo. Foi escolhido esse GPS por possuir um baixo consumo de energia e além de ser pequeno o que se faz ideal para satélites e, consequentemente para o projeto.
 
 
-![](assets/relatorio_eletronica/NEO-6M.png)
 
 ```eval_rst
 .. figure:: assets/relatorio_eletronica/NEO-6M.png
