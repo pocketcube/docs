@@ -16,30 +16,30 @@ Como é possível ver na tabela, a placa da Espressif possui especificações t�
 Segue o comparativo de microcontroladores que são utilizados normalmente em projetos:  
 
 ```eval_rst
-====================================================
-| Descrição | Arduino UNO | ESP32 | Raspberry Pi 0 |
-====================================================
-|Alimentação | 5V | 2,2V ~ 3,3V DC | 5V/1.2A  |
-| Bluetooth | Não Possui | Bluetooth Low Energy v4.2 (BLE) | Bluetooth Low Energy (BLE) 4.1 |
-| Conversores ADC (Analógico para Digital) | 6 ADC com 10-bit de resolução (1024 bits) | 18 ADC com 12-bit de resolução (4096 bits) | 16 ADS com 10 bit de resolução(1024 bits) |
-| Conversores DAC (Digital para Analógico) | Nenhum | 2 DAC com 8-bit de resolução (256 bits) | 2 DAC com 8-bit de resolução (256 bits) |
-| Corrente de Consumo | Media de 15mA | Media de 80mA | Media de 150mA |
-| Entrada Regulada (VIN) | Entre 7 e 12V | Entre 5 e 9V | Entre 3,3 e 5V |
-| Frequência de Operação: | 0 ~ 16 MHz | 80MHz ~ 240MHz | 120 MHz |
-| Interfaces de Módulos | I2C, SPI, UART e LED PWM | SPI, SDIO, LED PWM, Motor PWM, I2S e IR | mini HDMI (1080p60),Porta USB OTG (On-The-Go) micro-usb |
-| Memoria FLASH | 32KB | 4MB | 4MB |
-| Memoria RAM/SRAM | 2KB | 520KB | 512KB |
-| Memória ROM/EEPROM | 4KB | 448KB | 440KB |
-| Pinos de I/O | 23 pinos com 6 PWM | 34 pinos com 16 PWM | GPIO de 40 pinos |
-| Preço Médio (Modelo Original) | U$22,00 (Exterior) ou R$69,99 (Brasil) | U$14,95 (Exterior) ou R$38,90 (Brasil) | U$38,90 (Exterior) ou R$154,90 (Brasil) |
-| Processador | AVR® 8-bit RISC | Xtensa® Dual-Core 32-bit LX6 | Processador Broadcom BCM2835 ARM11 de 1GHz Single-core |
-| Sensores Embutidos | temperatura e Toque Capacitivo. | temperatura (algumas versões), efeito Hall e Toque Capacitivo | temperatura (algumas versões), efeito Hall e Toque Capacitivo |
-| Temperatura de Operação | Entre-40°C e +85°C | Entre -40°C  e+85°C | Entre-40°C e +85°C |
-| Temporizadores | 3 Timers, um de 16-bit e dois de 8bit | 4 Timers de 64-bit | 4 Timers de 64-bit |
-| Watchdog | 1 Watchdog | 4 Watchdogs | 1 Watchdog |
-| WiFi | Somente com Shield | 2,4 GHz, 802.11 b/g/n/e/i (802.11n até 150 Mbps) | 802.11 b/g/n |
-| Dimensões(mm) | 68 x 53 x 12  | 52 x 25 x 6 | 65 x 30 x 5 |
-====================================================
+=========================================== =========================================== =============================================================== ================================================================
+Descrição                                   Arduino UNO                                 ESP32                                                           Raspberry Pi 0 
+=========================================== =========================================== =============================================================== ================================================================
+Alimentação                                 5V                                          2,2V ~ 3,3V DC                                                  5V/1.2A  
+Bluetooth                                   Não Possui                                  Bluetooth Low Energy v4.2 (BLE)                                 Bluetooth Low Energy (BLE) 4.1 
+Conversores ADC (Analógico para Digital)    6 ADC com 10-bit de resolução (1024 bits)   18 ADC com 12-bit de resolução (4096 its)                       16 ADS com 10 bit de resolução(1024 bits) 
+Conversores DAC (Digital para Analógico)    Nenhum                                      2 DAC com 8-bit de resolução (256 bits)                         2 DAC com 8-bit de resolução (256 its) 
+Corrente de Consumo                         Media de 15mA                               Media de 80mA                                                   Media de 150mA 
+Entrada Regulada (VIN)                      Entre 7 e 12V                               Entre 5 e 9V                                                    Entre 3,3 e 5V 
+Frequência de Operação:                     0 ~ 16 MHz                                  80MHz ~ 240MHz                                                  120 MHz 
+Interfaces de Módulos                       I2C, SPI, UART e LED PWM                    SPI, SDIO, LED PWM, Motor PWM, I2S e IR                         mini HDMI (1080p60),Porta USB OTG On-The-Go) micro-usb 
+Memoria FLASH                               32KB                                        4MB                                                             4MB 
+Memoria RAM/SRAM                            2KB                                         520KB                                                           512KB 
+Memória ROM/EEPROM                          4KB                                         448KB                                                           440KB 
+Pinos de I/O                                23 pinos com 6 PWM                          34 pinos com 16 PWM                                             GPIO de 40 pinos 
+Preço Médio (Modelo Original)               U$22,00 (Exterior) ou R$69,99 (Brasil)      U$14,95 (Exterior) ou R$38,90 (Brasil)                          U$38,90 Exterior) ou R$154,90 (Brasil) 
+Processador                                 AVR® 8-bit RISC                             Xtensa® Dual-Core 32-bit LX6                                    Processador Broadcom BCM2835 ARM11 de 1GHz Single-core 
+Sensores Embutidos                          temperatura e Toque Capacitivo.             temperatura (algumas versões), efeito Hall e Toque Capacitivo   temperatura algumas versões), efeito Hall e Toque Capacitivo 
+Temperatura de Operação                     Entre-40°C e +85°C                          Entre -40°C  e+85°C                                             Entre-40°C e +85°C
+Temporizadores                              3 Timers, um de 16-bit e dois de 8bit       4 Timers de 64-bit                                              4 Timers de 64-bit
+Watchdog                                    1 Watchdog                                  4 Watchdogs                                                     1 Watchdog
+WiFi                                        Somente com Shield                          2,4 GHz, 802.11 b/g/n/e/i (802.11n até 150 Mbps)                802.11 b/g/n
+Dimensões(mm)                               68 x 53 x 12                                52 x 25 x 6                                                     65 x 30 x 5
+=========================================== =========================================== =============================================================== ================================================================
 ```
 
 Da fabricante chinesa Espressif Systems, a ESP32 é a solução mais integrada para aplicativos de Wi-Fi + Bluetooth da indústria com menos de 10 componentes. A ESP32 integra o interruptor da antena, RF balun, amplificador de potência, amplificador de recepção de baixo ruído, filtros, e módulos de gerenciamento de energia. Como tal, toda a solução ocupa uma área mínima de placa de circuito impresso (PCB). ESP32 é projetado para aplicativos móveis e Internet das Coisas (IoT). Tem muitos recursos dos chips de baixo consumo de última geração, incluindo controle de clock de alta resolução, modos de energia e escalonamento de energia dinâmico. Apresenta um coprocessador de ultra-baixo consumo (ULP Coprocessor), que permite delegar algumas tarefas (simples) para execução enquanto os processadores principais estão desligados. Ele possui suporte a SPI, UART e I2C (protocolos relativamente comuns), como também suporte a Infravermelho (IR) e SDIO (para interface com cartão de memória), e começa a se diferenciar, tendo CAN, Ethernet, DAC, Sensor de Toque, e I2S, que é uma interface de comunicação útil para comunicar com dispositivos de áudio.  
