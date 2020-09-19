@@ -1,2 +1,137 @@
 # Eletric Power System 
 
+O subsistema de suprimento energético - Electrical Power System (EPS) - é de grande importância, se não vital, para o desenvolvimento de qualquer projeto de satélite, sendo ele 
+o responsável por garantir a geração, armazenamento, regulação e controle de energia e distribuição de energia para todos os outros subsistemas integrados.  Sullivan et. al (1989) 
+o sistema de suprimento de energia corresponde a aproximadamente 20% da massa total do sistema de um satélite.  
+
+Os nanosatélites operam com demandas reduzidas de energia dadas as suas restrições de massa e área, limitando as fontes energéticas e volume de baterias (Mahdi & Jaafer, 2014).  
+Isso faz com que o EPS de qualquer projeto desse porte deva ser eficiente e flexível, ou seja, é necessário que o design do subsistema de energia atenda a todos os requisitos de  
+potência do projeto e, ao mesmo tempo, possa ser reutilizado em outras missões, sem que este tenha que ser remodelado (HOLLWEG, 2016).  
+
+A partir dos painéis solares, a energia elétrica é entregue ao módulo de potência e lá é condicionada, transferida e distribuída aos outros usuários do nanosatélites de acordo  
+com suas necessidades de consumo (figura 1). O banco de baterias é necessário para que haja o armazenamento desta energia. É preciso compreender, também, que os sistemas de um  
+satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso que a energia entregue seja gerenciada a fim de otimizá-la e garantir a vida útil do equipamento  
+(Céspedes & Escobar, 2018).  
+
+```eval_rst
+.. figure:: assets/Energia/DIAGRAMA 1 energia.png
+  :align: center
+  :width: 400
+  :alt: Alternative text
+
+  ..
+
+Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
+
+## 1.1 Visão geral do suprimento de energia
+
+Ferriani et al. (2006) considera que o sistema de potência dos satélites deve exercer várias funcionalidades, dentre elas ser capaz de produzir energia suficiente e eficiente,  
+além de confiável. Por isso, os seguintes requisitos deverão ser atendidos para o projeto em questão na área de Power Supply:
+
+  *Produzir energia através de células fotovoltaicas, suficiente para que o satélite funcione adequadamente;
+  *Armazenar energia elétrica em baterias para que o satélite continue funcionando durante a noite ou em penumbras (sombras);
+  *Ter proteções elétricas para o sistema de distribuição e condicionamento de potência;
+  *Possuir sistemas de controle, regulação de fluxo de energia e condicionamento de temperatura.
+
+A definição dos principais requisitos de EPS do PocketQube para Educação Básica foi feita adaptado de Wertz & Larson (1999). 
+
+```eval_rst
+.. figure:: assets/Energia/Diagrama 2 Energia.png
+  :align: center
+  :width: 400
+  :alt: Alternative text
+
+  ..
+
+  Figura 2. Arquitetura do EPS. Fonte: Adaptado de Wertz & Larson (1999).
+
+## 1.2 Fonte de Energia
+
+Dentre os elementos que compõe um EPS, a fonte de energia consiste em um componente gerador, e se mostra primeiramente como um ponto de partida para alimentação do sistema.  
+O seu uso em satélites se dá, principalmente, em missões com maior previsão de duração ou em casos onde um suprimento de energia dependente exclusivamente de baterias resultaria  
+em aumento expressivo no peso final do projeto. 
+
+Os principais requisitos para esse componente consistem, essencialmente, em suas capacidades de gerar energia em diversos ciclos orbitais, suportar cargas elétricas e recarregar 
+as baterias (Wertz & Larson, 1999).
+
+Nesse tópico, são levantados os principais tipos de componentes geradores e posteriormente, a partir de uma análise comparativa, se propõe a utilização daquele que mais se  
+adequa ao escopo do projeto.
+
+### 1.2.1 Principais Fontes de Energia utilizadas em Satélites
+
+Em um estudo aprofundado, Wertz e Larson (1999), elencam as quatro principais fontes geradoras de energia utilizadas em satélites, sendo elas: Células Solares Fotovoltaicas,  
+Fontes de Energia Estática, Fontes de Energia Dinâmicas e Células a Combustível. A seguir, são apresentadas suas principais características e aplicações em satélites.
+
+#### 1.2.1.1 Células Solares Fotovoltaicas
+
+Essa fonte de energia baseia no efeito fotovoltaico para converter a radiação solar em energia elétrica para o sistema. É mais comumente aplicada em satélites em órbitas  
+terrestres geossíncronas e, devido à sua confiabilidade, é a mais indicada para missões com potência menor que 15kW, consideradas baixa potência.
+
+Entretanto, apesar de sua facilidade de aplicação, as células solares fotovoltaicas não são recomendadas para missões à planetas externos, devido a diminuição da radiação solar  
+disponível, e nem para missões de mais longa duração, devido à degradação natural dos painéis.
+
+Fatores inerentes a missões espaciais, tais como sombreamento, temperatura e vida da missão ou fatores genéricos como custos e riscos, são decisivos para a elaboração de um  
+projeto solar para aplicação espacial.
+
+#### 1.2.1.2 Fontes de Energia Estática
+
+Esse tipo de componente gerador parte de uma fonte térmica (geralmente plutônio-238 ou Urânio-235) para conversão direta em energia elétrica, utilizando os conceitos termoelétrico  
+e/ou termiônico. O tipo de fonte de energia estática mais utilizado em aplicações espaciais é o Par Termoelétrico, onde o gradiente de temperatura proveniente do decaimento  
+lento da fonte radioativa é convertido em energia elétrica, com uma eficiência média de 5 a 8%.
+
+Já a conversão a partir do conceito termiônico, possui uma eficiência de 10 a 20%, e se baseia na diferença de temperaturas entre dois eletrodos (emissor e coletor) mantidos  
+vedados na presença de um gás ionizado. O eletrodo mais quente, emissor, emite elétrons através do espaço até o eletrodo mais frio, o coletor, onde eles se condensam e retornam  
+ao emissor através da carga elétrica conectada externamente.
+
+A aplicação desse tipo de fonte de energia implica em um sistema mais robusto e termicamente isolado, de forma a se conter as altas temperaturas necessárias para uma conversão  
+eficiente.
+
+#####  1.2.1.3 Fontes de Energia Dinâmica
+
+Assim como as fontes de energia estáticas, as fontes dinâmicas também utilizam uma fonte de calor para conversão em energia elétrica e necessitam de uma estrutura mais robusta.  
+Entretanto, nesse caso, o sistema se baseia em um ciclo termodinâmico (Brayton, Stirling ou Rankine), utilizando um trocador de calor, para acionar um motor e realizar o processo  
+de conversão.
+
+Dentre as principais fontes de calor utilizadas por esse tipo de componente, tem-se radioisótopos, reação de fissão nuclear controlada e a energia solar concentrada. Nos casos  
+de aplicação do último tipo, é utilizado sal eutético fundido para manter o calor latente e fornecer energia nos períodos de sombreamento, o que não é necessário nos outros  
+tipos, uma vez que os mesmos fornecem calor de forma contínua.
+
+Outro fator importante na implementação de um sistema de geração por fonte de energia dinâmica é a escolha do ciclo termodinâmico mais apropriado para o sistema, podendo ser  
+empregados os ciclos de Stirling, Rankine ou Brayton, com eficiências de 15 a 35%.
+
+#### 1.2.1.4 Células a Combustível
+
+  Geralmente utilizadas em missões tripuladas, as células a combustível utilizam a energia dissipada em uma reação de oxidação para gerar eletricidade. Apesar dessa fonte utilizar  
+  geradores independentes, esses necessitam de reposição de reagentes, sendo a relação de reposição diretamente proporcional à duração da missão.
+  
+  O tipo mais comum utilizado em aplicações espaciais é a célula baseada em Hidrogênio-Oxigênio, devido à sua potência específica alta, baixa massa de reagentes e subproduto útil 
+  (água). A eficiência desse tipo de componente varia entre 50 a 80%, dependendo do consumo de alta ou baixa corrente.
+  Dentre as principais vantagens desse tipo de componente gerador, destacam-se, além da sua eficiência, a sua confiabilidade, tempo de inicialização, desligamento instantâneo,  
+  possibilidade de reversão da reação, e sua longa vida útil. Outro fator importante na sua utilização em missões tripuladas é a geração de água potável, que chega a 0,36 kg/kWh.
+  
+  Aliada a outros tipos de fontes geradoras, que possam suprir a demanda de energia durante o período de reversão (e, consequentemente, baixa carga elétrica), essa tecnologia  
+  pode ser utilizada em quaisquer missões de longa duração.
+
+###1.2.2 Fonte de energia escolhida no contexto do projeto
+
+Baseando-se nos estudos de Patel (2005), Wertz & Larson (1999), Céspedes e Escobar (2018), De Paula & Magalhães (2019), Park, Chae e Oh (2019), Sanchez-Sanjuan et al. (2016) e  
+Hollweg (2016), bem como, nas características e implicações de cada tipo de fonte de energia citada previamente e no contexto ao qual o projeto está submetido (destacando-se  
+aqui o caráter educacional, a baixa demanda de potência, as aplicações em Low Earth Orbit e as limitações de peso e tamanho), entende-se que as células solares fotovoltaicas se  
+apresentam como a opção mais adequada para alimentação do sistema. 
+
+##1.3 Armazenamento de Energia
+
+O sistema de armazenamento de energia pode ser feito com uso de baterias primárias e secundárias. As baterias primárias funcionam com a conversão de energia química em elétrica,  
+mas não conseguindo fazer o processo reverso, ou seja, não podem ser recarregadas. Já as baterias secundárias convertem energia química em elétrica no momento da descarga, e  
+energia elétrica em energia química durante a carga, podendo ser recarregáveis (De Paula & Magalhães, 2019, apud Wertz & Larson, 1999). Para um projeto de satélite educacional,  
+as baterias utilizadas deverão ser secundárias, pois dependendo da órbita, nos momentos de sunlight, elas poderão ser recarregadas e serão utilizadas nas horas de eclipse  
+(Ferriani et al., 2006).
+
+A potência excedente gerada pelos painéis solares - única fonte de geração de energia viável em nanosatélites - em momentos de sunlight é armazenada nas baterias secundárias e  
+utilizada pelos outros subsistemas do satélite em momentos de pico de consumo e/ou períodos de eclipse. A depender da órbita na qual o satélite irá trabalhar, a radiação solar  
+pode ser zero, e por isso, a necessidade das baterias. Estes picos de consumo podem ser dados quando houver comunicação com a estação de solo.
+
+      Tabela 1.  Baterias e suas respectivas aplicações no mercado.	
+      
+ 
+De acordo com Patel (2005); Wertz & Larson (1999) apud De Paula & Magalhães (2019), Sanchez-Sanjuan et al. (2016) e Hollweg (2016), as baterias secundárias utilizadas em nanosatélites e que estão dominando o espaço são Níquel-Cádmio (NiCd), Níquel-Hidrogênio (NiH2), Níquel-metal-hidreto (NiMH), Lítio-íon (Li-Ion) e Lítio-polímero (Li-poly), sendo Li-Ion e Li-poly as mais utilizadas. O quadro 1 a seguir, adaptado de SAFT (2008), apresenta as baterias utilizadas no mercado e suas respectivas aplicações. Dentre elas, as baterias apropriadas para satélites são Li-Ion- cobalto e níquel - e as de NiH2 e NiCd.
