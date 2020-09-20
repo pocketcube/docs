@@ -96,7 +96,7 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
 ```
 
 ```eval_rst
-.. |eap|figure:: assets/tap/eap.jpg
+.. |eap| image:: assets/tap/eap.jpg
   :align: center
   :width: 600
   :alt: Alternative text
