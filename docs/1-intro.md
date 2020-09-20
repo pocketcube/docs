@@ -79,11 +79,9 @@ engenharia aeroespacial inicialmente.
 .. image:: assets/intro/img1.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
-
-  Fig 1: Estrutura dos subsistemas de um satélite
+..
+.. class:: center
+Fig 1: Estrutura dos subsistemas de um satélite
 
 ```
 
