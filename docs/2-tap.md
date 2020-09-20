@@ -104,7 +104,7 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
 Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
 
 ```eval_rst
-.. figure:: assets/tap/diagrama-integrações.jpg
+.. figure:: assets/tap/diagrama-integracoes.jpg
   :align: center
   :width: 600
   :alt: Alternative text
@@ -117,7 +117,7 @@ Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
 ```eval_rst
 .. figure:: assets/tap/cronograma.jpg
   :align: center
-  :width: 800
+  :width: 600
   :alt: Alternative text
 
   ..
@@ -128,7 +128,7 @@ Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
 ```eval_rst
 .. figure:: assets/tap/equipe.jpg
   :align: center
-  :width: 800
+  :width: 600
   :alt: Alternative text
 
   ..
@@ -180,7 +180,7 @@ Com base nos sistemas e subsistemas apresentando na Estrutura Analítica de Proj
 ```eval_rst
 .. figure:: assets/tap/orcamento.jpg
   :align: center
-  :width: 800
+  :width: 600
   :alt: Alternative text
 
   ..
