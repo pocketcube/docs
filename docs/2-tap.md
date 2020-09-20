@@ -114,10 +114,13 @@ Este anexo apresenta uma estrutura da arquitetura do projeto em nível de backen
 A comunicação acontecerá através de protocolos de comunicação HTTP e WebSockets, utilizando as arquitetura REST e MQTT.
   
 ```eval_rst
-.. image:: assets/Software/diagrama_comunicacao.png
+.. image:: assets/software/diagrama_comunicacao.png
   :align: center
   :width: 400
+  
   ..
+  
+  Figura 1 - Diagrama de Comunicação.
 ```
   
 A partir desse diagrama, desenvolvemos o diagrama de sequência abaixo, detalhando o fluxo de dados e interações entre cada um dos atores:
