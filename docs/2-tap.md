@@ -118,6 +118,8 @@ A comunicação acontecerá através de protocolos de comunicação HTTP e WebSo
   :align: center
   :width: 400
   
+  ..
+  
   Figura 1 - Diagrama de Comunicação.
 ```
   
