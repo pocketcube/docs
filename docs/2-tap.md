@@ -93,44 +93,34 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
 ```eval_rst
 .. image:: assets/tap/eap.jpg
   :align: center
-  :width: 600
-  :alt: Alternative text
-
+  :width: 500
 ..
-
 ```
 
 Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
 
 ```eval_rst
-.. figure:: assets/tap/diagrama-integracoes.jpg
+.. image:: assets/tap/diagrama-integracoes.jpg
   :align: center
-  :width: 600
-  :alt: Alternative text
-
-  ..
-
+  :width: 500
+..
 ```
+
 
 ## Cronograma
 ```eval_rst
-.. figure:: assets/tap/cronograma.jpg
+.. image:: assets/tap/cronograma.jpg
   :align: center
-  :width: 600
-  :alt: Alternative text
-
-  ..
-
+  :width: 500
+..
 ```
 
 ## Equipe
 ```eval_rst
-.. figure:: assets/tap/equipe.jpg
+.. image:: assets/tap/equipe.jpg
   :align: center
-  :width: 600
-  :alt: Alternative text
-
-  ..
+  :width: 500
+..
 
 ```
 
@@ -177,12 +167,11 @@ Membros e desenvolvedores:
 Com base nos sistemas e subsistemas apresentando na Estrutura Analítica de Projeto cada subsistemas apresentou uma estimativa de custo e materiais totalizando o valor de 1821 reais de material para desenvolvido e para nível total de projeto o orçamento é de 2601 reais sendo uma reserva para emergências ou outros custos representando 30% do total.
 
 ```eval_rst
-.. figure:: assets/tap/orcamento.jpg
+.. image::  assets/tap/orcamento.jpg
   :align: center
-  :width: 600
-  :alt: Alternative text
+  :width: 400
 
-  ..
+..
 
 ```
 
