@@ -72,21 +72,21 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
 - Deployer para um lançador atmosférico, adaptável a diversos tipos de lançamentos;
 
 ## Premissas e restrições
-- 1. **Segurança**: Ao lançar um produto no mercado, ele deve seguir um mínimo de condições de segurança para o consumidor final. O consumidor final será alunos de ensino médio e ensino fundamental, portanto o satélite necessita não ter partes pontiagudas, que possam causar danos de saúde para os usuários. Nem que caia alguém, queime alguém.
+- **Segurança**: Ao lançar um produto no mercado, ele deve seguir um mínimo de condições de segurança para o consumidor final. O consumidor final será alunos de ensino médio e ensino fundamental, portanto o satélite necessita não ter partes pontiagudas, que possam causar danos de saúde para os usuários. Nem que caia alguém, queime alguém.
 
-- 2. **Facilidade de montagem**: Para possuir uma maior adesão do produto no mercado,  e uma maior adesão de alunos e professores o kit do satélite deve possuir facilidade nas montagens, para que a introdução do curso tenha alta adesão. Portanto o projeto visa facilidade de montagem, que implica em uma simplicidade em fazer a conexão dos sensores com a estrutura do satélite.
+- **Facilidade de montagem**: Para possuir uma maior adesão do produto no mercado,  e uma maior adesão de alunos e professores o kit do satélite deve possuir facilidade nas montagens, para que a introdução do curso tenha alta adesão. Portanto o projeto visa facilidade de montagem, que implica em uma simplicidade em fazer a conexão dos sensores com a estrutura do satélite.
 
-- 3. **Rapidez de montagem**: É necessário que o processo de montagem  possa ser executado durante o tempo de aula, com isso a rapidez na montagem é um requisito. Segundo a Lei de Diretrizes e Bases da Educação, o tempo médio de duração do período de aula é de 4 horas diárias. Com base nessa informação, deve ser possível realizar a montagem em até 2h.
+- **Rapidez de montagem**: É necessário que o processo de montagem  possa ser executado durante o tempo de aula, com isso a rapidez na montagem é um requisito. Segundo a Lei de Diretrizes e Bases da Educação, o tempo médio de duração do período de aula é de 4 horas diárias. Com base nessa informação, deve ser possível realizar a montagem em até 2h.
 
-- 4. **Baixo custo e alto custo-benefício**: Com o objetivo de ser acessível a escolas das mais variadas condições. O custo é um fator importante. Com isso, na hora da escolha dos componentes do satélite, deve-se buscar o melhor custo-benefício, optando por componentes que satisfaçam todos os outros requisitos do projeto e que apresentem um baixo custo.
+- **Baixo custo e alto custo-benefício**: Com o objetivo de ser acessível a escolas das mais variadas condições. O custo é um fator importante. Com isso, na hora da escolha dos componentes do satélite, deve-se buscar o melhor custo-benefício, optando por componentes que satisfaçam todos os outros requisitos do projeto e que apresentem um baixo custo.
 
-- 5. **Facilidade de implementação**: Para maior abrangência do programa educacional, o satélite não deve depender dos recursos da escola, para realizar suas funcionalidades, facilitando a implementação do programa. O satélite deve ter uma boa mobilidade e facilidade de manuseio, sem a necessidade de equipamentos ou máquinas de manuseio/movimentação.
+- **Facilidade de implementação**: Para maior abrangência do programa educacional, o satélite não deve depender dos recursos da escola, para realizar suas funcionalidades, facilitando a implementação do programa. O satélite deve ter uma boa mobilidade e facilidade de manuseio, sem a necessidade de equipamentos ou máquinas de manuseio/movimentação.
 
-- 6.  **Didática**: a visão do satélite é trazer o conhecimento prático da engenharia desde o ensino médio, de modo a reduzir a aversão desses alunos às áreas exatas. Para que isso seja alcançado, o produto deve ser explicado de forma simplificada, relacionando-o aos conteúdos já vistos pelo estudante, e evitando conceitos mais complexos (tais como derivada e integral).
+- **Didática**: a visão do satélite é trazer o conhecimento prático da engenharia desde o ensino médio, de modo a reduzir a aversão desses alunos às áreas exatas. Para que isso seja alcançado, o produto deve ser explicado de forma simplificada, relacionando-o aos conteúdos já vistos pelo estudante, e evitando conceitos mais complexos (tais como derivada e integral).
 
-- 7. **Usabilidade**; o satélite e a plataforma de lançamento devem possuir formato ergonômico e superfície confortável ao manuseio por horas consecutivas. Já a interface deve apresentar facilidade de uso e aprendizagem (conforme as 6 Metas de Usabilidade de Nielsen), disponibilizando os dados de forma clara e concisa, preferencialmente utilizando-se de um design agradável.
+- **Usabilidade**; o satélite e a plataforma de lançamento devem possuir formato ergonômico e superfície confortável ao manuseio por horas consecutivas. Já a interface deve apresentar facilidade de uso e aprendizagem (conforme as 6 Metas de Usabilidade de Nielsen), disponibilizando os dados de forma clara e concisa, preferencialmente utilizando-se de um design agradável.
 
-- 8. **Resistência**: por ser direcionado ao público infanto-juvenil, o produto deve ser resistente à falhas de manuseio, tais como queda de pequenas alturas e pressão feita pelas mãos.
+- **Resistência**: por ser direcionado ao público infanto-juvenil, o produto deve ser resistente à falhas de manuseio, tais como queda de pequenas alturas e pressão feita pelas mãos.
 
 
 ## Estrutura Analítica do Projeto
