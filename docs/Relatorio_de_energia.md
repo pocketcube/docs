@@ -13,6 +13,7 @@ com suas necessidades de consumo (figura 1). O banco de baterias é necessário 
 satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso que a energia entregue seja gerenciada a fim de otimizá-la e garantir a vida útil do equipamento  
 (Céspedes & Escobar, 2018).  
 
+
 ```eval_rst
 .. figure:: assets/Energia/DIAGRAMA 1 energia.png
   :align: center
@@ -21,7 +22,10 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
 
   ..
 
-Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
+  Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
+
+```
+
 
 ## 1.1 Visão geral do suprimento de energia
 
@@ -86,7 +90,7 @@ ao emissor através da carga elétrica conectada externamente.
 A aplicação desse tipo de fonte de energia implica em um sistema mais robusto e termicamente isolado, de forma a se conter as altas temperaturas necessárias para uma conversão  
 eficiente.
 
-#####  1.2.1.3 Fontes de Energia Dinâmica
+####  1.2.1.3 Fontes de Energia Dinâmica
 
 Assim como as fontes de energia estáticas, as fontes dinâmicas também utilizam uma fonte de calor para conversão em energia elétrica e necessitam de uma estrutura mais robusta.  
 Entretanto, nesse caso, o sistema se baseia em um ciclo termodinâmico (Brayton, Stirling ou Rankine), utilizando um trocador de calor, para acionar um motor e realizar o processo  
