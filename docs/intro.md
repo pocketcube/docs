@@ -76,7 +76,7 @@ universidade de maneira padrão no mundo todo para desenvolvimento de competênc
 engenharia aeroespacial inicialmente.
 
 ```eval_rst
-.. figure:: assets/intro/img1.png
+.. image:: assets/intro/img1.png
   :align: center
   :width: 400
   :alt: Alternative text

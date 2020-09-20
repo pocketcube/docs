@@ -5,7 +5,7 @@
 A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o estudantes brasileiros estão estacionados em ciência e matemática, onde esse mesmo desempenho historicamente está classificado entre as últimas posições, com média semelhante aos países menos desenvolvidos do ranking, mesmo tendo PIB e renda per capita maior que desses países, esses dados podem ser traduzidos como: O investimento em educação no Brasil não apresenta bom desempenho, ou que a educação brasileira é falha para com seus estudantes.
 
 ```eval_rst
-.. figure:: assets/tap/pisa2018.jpg
+.. image:: assets/tap/pisa2018.jpg
   :align: center
   :width: 400
   :alt: Alternative text
@@ -14,7 +14,7 @@ A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o e
 
 ```
 ```eval_rst
-.. figure:: assets/tap/pisa2018-mat.jpg
+.. image:: assets/tap/pisa2018-mat.jpg
   :align: center
   :width: 400
   :alt: Alternative text

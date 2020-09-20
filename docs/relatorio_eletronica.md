@@ -31,7 +31,7 @@ Os payloads são o coração das missões no espaço. Sem os payloads, não have
 O ESP32-CAM é uma versão especial da placa de desenvolvimento baseada no módulo ESP32S WiFi. É o modelo mais compacto da nova geração de placas com ESP32, contendo um slot para acoplamento da câmera e um slot micro-SD para gravar dados de tamanho máximo de 4GB. Muito eficiente, possui o módulo ESP-WROOM-32 que além de conter o ESP32, conta com um cristal de 40MHz. Tem suporte para as interfaces UART, SPI, I2C e PWM. Contém pinos para alimentação e programação, além de 16 portas GPIO, Conversor Analógico/Digital e botão reset ainda mais um LED maior para servir de flash. Abriga uma antena embutida e ainda, um encaixe para antena externa, com propósito de aumentar o alcance. Outro diferencial exclusivo do ESP32 CAM é que além de possuir conexão WiFi nativa, conta também com Bluetooth V4.2 embutido e microprocessador dual core 32-bit LX, de forma a tornar o projeto ainda mais prático e aumentar as possibilidades de uso. Tudo isso em um tamanho de 40.5 x 27 x 4.5 mm e 10 g. Na Figura X é mostrada uma foto do módulo.
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/ESP32-CAM.png
+.. image:: assets/relatorio_eletronica/ESP32-CAM.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -109,7 +109,7 @@ Dada suas características a ESP32 será o modelo a ser utilizado. Serão utiliz
 
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/esp32-esquema.png
+.. image:: assets/relatorio_eletronica/esp32-esquema.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -133,7 +133,7 @@ O BME280 é importante para o projeto primeiramente por ter dimensões pequenas,
 
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/BME280.png
+.. image:: assets/relatorio_eletronica/BME280.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -152,7 +152,7 @@ Foi estudado mais três tipos de sensores semelhantes ao MPU 6050: Itg3200 + Adx
 
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/MPU6050-1.png
+.. image:: assets/relatorio_eletronica/MPU6050-1.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -165,7 +165,7 @@ Foi estudado mais três tipos de sensores semelhantes ao MPU 6050: Itg3200 + Adx
 
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/MPU6050-2.png
+.. image:: assets/relatorio_eletronica/MPU6050-2.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -185,7 +185,7 @@ No estudo feito para a escolha do módulo GPS do projeto foram considerados dois
 
 
 ```eval_rst
-.. figure:: assets/relatorio_eletronica/NEO-6M.png
+.. image:: assets/relatorio_eletronica/NEO-6M.png
   :align: center
   :width: 400
   :alt: Alternative text

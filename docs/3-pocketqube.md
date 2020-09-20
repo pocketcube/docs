@@ -15,7 +15,7 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
 (Céspedes & Escobar, 2018).  
 
 ```eval_rst
-.. figure:: assets/Energia/diagrama-1-energia.png
+.. image:: assets/Energia/diagrama-1-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -39,7 +39,7 @@ além de confiável. Por isso, os seguintes requisitos deverão ser atendidos pa
 A definição dos principais requisitos de EPS do PocketQube para Educação Básica foi feita adaptado de Wertz & Larson (1999).
 
 ```eval_rst
-.. figure:: assets/Energia/diagrama-2-energia.png
+.. image:: assets/Energia/diagrama-2-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -142,7 +142,7 @@ sendo Li-Ion e Li-poly as mais utilizadas. O quadro 1 a seguir, adaptado de SAFT
 as baterias apropriadas para satélites são Li-Ion- cobalto e níquel - e as de NiH2 e NiCd.
 
 ```eval_rst
-.. figure:: assets/Energia/tabela-1-energia.png
+.. image:: assets/Energia/tabela-1-energia.png
   :align: center
   :width: 600
   :alt: Alternative text
@@ -224,7 +224,7 @@ vantagens e desvantagens das baterias de lítio-polímero:
 A seguir, é apresentado um quadro com os principais elementos a serem comparados entre estas baterias. 
 
 ```eval_rst
-.. figure:: assets/Energia/tabela-2-energia.png
+.. image:: assets/Energia/tabela-2-energia.png
   :align: center
   :width: 600
   :alt: Alternative text
@@ -246,7 +246,7 @@ excesso é dissipado. Já na arquitetura PPT, ou MPPT (Maximum Power Point Track
 ponto de operação em tempo real.
 
 ```eval_rst
-.. figure:: assets/Energia/diagrama-3-energia.png
+.. image:: assets/Energia/diagrama-3-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -282,7 +282,7 @@ Utilizado em missões LEO para suprir as falhas existentes entre os barramentos 
 A tabela a seguir apresenta as diferenças entre as configurações dos barramentos para os tipos de topologias DET e PPT.
 
 ```eval_rst
-.. figure:: assets/Energia/tabela-3-energia.png
+.. image:: assets/Energia/tabela-3-energia.png
   :align: center
   :width: 600
   :alt: Alternative text
@@ -323,7 +323,7 @@ sombreamento, ambiente de radiação, iluminação ou orientação, vida útil d
 dimensionamento dos painéis do PocketQube para Educação Básica está no processo a seguir.
 
 ```eval_rst
-.. figure:: assets/Energia/diagrama-4-energia.png
+.. image:: assets/Energia/diagrama-4-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -338,7 +338,7 @@ dimensionamento dos painéis do PocketQube para Educação Básica está no proc
 A potência gerada pelo painel solar (Psa) é calculada a partir dos dados de potência necessária durante o sunlight (Pd) e eclipse (Pc) e pelos períodos de sunlight (Td) e eclipse (Tc). A potência de painel solar é obtida pelas equações abaixo, respectivamente.
 
 ```eval_rst
-.. figure:: assets/Energia/formula-1-energia.png
+.. image:: assets/Energia/formula-1-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -355,7 +355,7 @@ constante solar de 1367W/m², é calculada pela equação a seguir.
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-2-energia.png
+.. image:: assets/Energia/formula-2-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -370,7 +370,7 @@ constante solar de 1367W/m², é calculada pela equação a seguir.
 A potência de saída necessária para o começo de vida (Pbol) é calcula pela equação a seguir.
 
 ```eval_rst
-.. figure:: assets/Energia/formula-3-energia.png
+.. image:: assets/Energia/formula-3-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -382,7 +382,7 @@ A potência de saída necessária para o começo de vida (Pbol) é calcula pela 
 A degradação por tempo de vida (Ld) é calculada como:
 
 ```eval_rst
-.. figure:: assets/Energia/formula-4-energia.png
+.. image:: assets/Energia/formula-4-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -394,7 +394,7 @@ A degradação por tempo de vida (Ld) é calculada como:
 A potência de saída para o fim de vida é dada por:
 
 ```eval_rst
-.. figure:: assets/Energia/formula-5-energia.png
+.. image:: assets/Energia/formula-5-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -408,7 +408,7 @@ A potência de saída para o fim de vida é dada por:
 O cálculo da área total de painel solar é a razão entre a potência do painel solar e a potência de saída do fim de vida. Desta maneira a área total é calculada pelas Equações (7) e (8).
 
 ```eval_rst
-.. figure:: assets/Energia/formula-6-energia.png
+.. image:: assets/Energia/formula-6-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -423,7 +423,7 @@ O cálculo da área total de painel solar é a razão entre a potência do paine
 A massa estimada para o painel é obtida sabendo a potência gerada e a performance específica do painel, em W/Kg, dada pelo datasheet do equipamento escolhido.
 
 ```eval_rst
-.. figure:: assets/Energia/formula-7-energia.png
+.. image:: assets/Energia/formula-7-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -438,7 +438,7 @@ Esta etapa do dimensionamento visa determinar a quantidade de células em série
 terão de ser informados a partir do datasheet da célula solar selecionada, como potência, corrente e tensão da célula solar. A quantidade de células solares necessárias é dado por
 
 ```eval_rst
-.. figure:: assets/Energia/formula-8-energia.png
+.. image:: assets/Energia/formula-8-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -450,7 +450,7 @@ terão de ser informados a partir do datasheet da célula solar selecionada, com
 A quantidade de células em série é dado por,
 
 ```eval_rst
-.. figure:: assets/Energia/formula-9-energia.png
+.. image:: assets/Energia/formula-9-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -462,7 +462,7 @@ A quantidade de células em série é dado por,
 A quantidade de strings em paralelo é dado pela equação a seguir.
 
 ```eval_rst
-.. figure:: assets/Energia/formula-10-energia.png
+.. image:: assets/Energia/formula-10-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -480,7 +480,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-11-energia.png
+.. image:: assets/Energia/formula-11-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -493,7 +493,7 @@ A tensão de barramento é, então, calculada por
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-12-energia.png
+.. image:: assets/Energia/formula-12-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -506,7 +506,7 @@ A depender da órbita que o PocketQube irá se posicionar, é necessário saber 
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-13-energia.png
+.. image:: assets/Energia/formula-13-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -519,7 +519,7 @@ A capacidade de armazenamento da bateria pode ser calculada considerando a profu
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-14-energia.png
+.. image:: assets/Energia/formula-14-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -531,7 +531,7 @@ A capacidade de armazenamento da bateria pode ser calculada considerando a profu
 É possível obter a capacidade da bateria em Ah - Ampere-hora- pela equação a seguir.
 
 ```eval_rst
-.. figure:: assets/Energia/formula-15-energia.png
+.. image:: assets/Energia/formula-15-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -545,7 +545,7 @@ Agora, para dimensionar a massa das baterias, é necessário saber o valor de de
 
 
 ```eval_rst
-.. figure:: assets/Energia/formula-16-energia.png
+.. image:: assets/Energia/formula-16-energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -620,7 +620,7 @@ Para aplicação no projeto foram selecionados alguns materiais um copolímero d
 O copolímero ASA apresenta boas propriedades mecânicas similares as do copolímero ABS, além de ter uma boa resistência contra raios UV (é atmosférico) fazendo com que o mesmo tenha uma aplicação mais efetiva para o projeto. A tabela abaixo apresenta um comparativo entre ambos.
 
 ```eval_rst
-.. figure:: assets/estrutura/Tabela-1-Estrutura.png
+.. image:: assets/estrutura/Tabela-1-Estrutura.png
   :align: center
   :width: 500
   :alt: Alternative text
@@ -631,7 +631,7 @@ O copolímero ASA apresenta boas propriedades mecânicas similares as do copolí
 As Ligas de Alumínio 7075-T6 e 6061-T6 são materiais que combinam alta resistência mecânica aliada a leveza, ou seja, ambas apresentam ótimas propriedades mecânicas resultando em peças, estruturas capazes de suportar situações em que há uma aplicação de carga muito alta sobre a mesma. A tabela abaixo mostra um comparativo entre as ligas.
 
 ```eval_rst
-.. figure:: assets/estrutura/Tabela-2-Estrutura.png
+.. image:: assets/estrutura/Tabela-2-Estrutura.png
   :align: center
   :width: 600
   :alt: Alternative text
@@ -641,7 +641,7 @@ As Ligas de Alumínio 7075-T6 e 6061-T6 são materiais que combinam alta resist�
 O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico, é caracterizado pela combinação de força e alta ductilidade, que é a habilidade do material em ser dobrado ou moldado.
 
 ```eval_rst
-.. figure:: assets/estrutura/Tabela-3-Estrutura.png
+.. image:: assets/estrutura/Tabela-3-Estrutura.png
   :align: center
   :width: 400
   :alt: Alternative text

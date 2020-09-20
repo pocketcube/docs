@@ -15,7 +15,7 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
 
 
 ```eval_rst
-.. figure:: assets/Energia/DIAGRAMA 1 energia.png
+.. image:: assets/Energia/DIAGRAMA 1 energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -40,7 +40,7 @@ além de confiável. Por isso, os seguintes requisitos deverão ser atendidos pa
 A definição dos principais requisitos de EPS do PocketQube para Educação Básica foi feita adaptado de Wertz & Larson (1999). 
 
 ```eval_rst
-.. figure:: assets/Energia/Diagrama 2 Energia.png
+.. image:: assets/Energia/Diagrama 2 Energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -143,7 +143,7 @@ as baterias apropriadas para satélites são Li-Ion- cobalto e níquel - e as de
       Tabela 1.  Baterias e suas respectivas aplicações no mercado.	
       
       ```eval_rst
-.. figure:: assets/Energia/Tabela Energia 1.png
+.. image:: assets/Energia/Tabela Energia 1.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -227,7 +227,7 @@ fazendo com que esta bateria perca espaço do mercado para modelos mais atuais, 
           Quadro 2. Comparativo entre elementos principais das baterias estudadas.
           
  ```eval_rst
-.. figure:: assets/Energia/Tabela Energia 2.png
+.. image:: assets/Energia/Tabela Energia 2.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -248,7 +248,7 @@ fazendo com que esta bateria perca espaço do mercado para modelos mais atuais, 
   
   
  ```eval_rst
-.. figure:: assets/Energia/Diagrama 3 Energia.png.png
+.. image:: assets/Energia/Diagrama 3 Energia.png.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -283,7 +283,7 @@ Utilizado em missões LEO para suprir as falhas existentes entre os barramentos 
 A tabela a seguir apresenta as diferenças entre as configurações dos barramentos para os tipos de topologias DET e PPT.
 
  ```eval_rst
-.. figure:: assets/Energia/Tabela 3 Energia..png.png
+.. image:: assets/Energia/Tabela 3 Energia..png.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -325,7 +325,7 @@ sombreamento, ambiente de radiação, iluminação ou orientação, vida útil d
 dimensionamento dos painéis do PocketQube para Educação Básica está no processo a seguir.
 
  ```eval_rst
-.. figure:: assets/Energia/Diagrama 4 Energia.png
+.. image:: assets/Energia/Diagrama 4 Energia.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -339,7 +339,7 @@ dimensionamento dos painéis do PocketQube para Educação Básica está no proc
   eclipse (Tc). A potência de painel solar é obtida pelas equações abaixo, respectivamente.
   
   ``eval_rst
-.. figure:: assets/Energia/Fórmulas 1 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 1 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -353,7 +353,7 @@ A potência de saída é calculada pela multiplicação da eficiência da célul
 constante solar de 1367W/m², é calculada pela equação a seguir.
 
  ``eval_rst
-.. figure:: assets/Energia/Fórmulas 2 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 2 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -365,7 +365,7 @@ constante solar de 1367W/m², é calculada pela equação a seguir.
 	A potência de saída necessária para o começo de vida (Pbol) é calcula pela equação a seguir.
 
  ``eval_rst
-.. figure:: assets/Energia/Fórmulas 3Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 3Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -375,7 +375,7 @@ constante solar de 1367W/m², é calculada pela equação a seguir.
 A degradação por tempo de vida (Ld) é calculada como:
 
  ``eval_rst
-.. figure:: assets/Energia/Fórmulas 4 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 4 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -383,7 +383,7 @@ A degradação por tempo de vida (Ld) é calculada como:
 A potência de saída para o fim de vida é dada por:
 
  ``eval_rst
-.. figure:: assets/Energia/Fórmulas 5 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 5 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -393,7 +393,7 @@ A potência de saída para o fim de vida é dada por:
 	O cálculo da área total de painel solar é a razão entre a potência do painel solar e a potência de saída do fim de vida. Desta maneira a área total é calculada pelas Equações (7) e (8).
 
  ``eval_rst
-.. figure:: assets/Energia/Fórmulas 6 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 6 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -403,7 +403,7 @@ A potência de saída para o fim de vida é dada por:
   A massa estimada para o painel é obtida sabendo a potência gerada e a performance específica do painel, em W/Kg, dada pelo datasheet do equipamento escolhido.
   
    ``eval_rst
-.. figure:: assets/Energia/Fórmulas 7 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 7 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -414,7 +414,7 @@ Esta etapa do dimensionamento visa determinar a quantidade de células em série
 terão de ser informados a partir do datasheet da célula solar selecionada, como potência, corrente e tensão da célula solar. A quantidade de células solares necessárias é dado por
 
 ``eval_rst
-.. figure:: assets/Energia/Fórmulas 8 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 8 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -422,7 +422,7 @@ terão de ser informados a partir do datasheet da célula solar selecionada, com
  A quantidade de células em série é dado por,
 
 ``eval_rst
-.. figure:: assets/Energia/Fórmulas 9 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 9 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -430,7 +430,7 @@ terão de ser informados a partir do datasheet da célula solar selecionada, com
   A quantidade de strings em paralelo é dado pela equação a seguir.
   
   ``eval_rst
-.. figure:: assets/Energia/Fórmulas 10 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 10 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -443,7 +443,7 @@ A partir da seleção de qual célula será utilizada no projeto, é possível d
 a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
 
    ``eval_rst
-.. figure:: assets/Energia/Fórmulas 11 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 11 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -451,7 +451,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
   A tensão de barramento é, então, calculada por
   
     ``eval_rst
-.. figure:: assets/Energia/Fórmulas 12 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 12 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -462,7 +462,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
 
 
     ``eval_rst
-.. figure:: assets/Energia/Fórmulas 13 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 13 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -472,7 +472,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
   a bateria e a carga.
 
     ``eval_rst
-.. figure:: assets/Energia/Fórmulas 14 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 14 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -480,7 +480,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
   É possível obter a capacidade da bateria em Ah - Ampere-hora- pela equação a seguir.
 
     ``eval_rst
-.. figure:: assets/Energia/Fórmulas 15 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 15 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text
@@ -488,7 +488,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
   Agora, para dimensionar a massa das baterias, é necessário saber o valor de densidade de energia específica - em Wh/Kg - e a capacidade de armazenamento da bateria calculada anteriormente.
 
     ``eval_rst
-.. figure:: assets/Energia/Fórmulas 16 Energia.PNG.png
+.. image:: assets/Energia/Fórmulas 16 Energia.PNG.png
   :align: center
   :width: 400
   :alt: Alternative text

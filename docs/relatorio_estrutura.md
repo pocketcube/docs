@@ -55,7 +55,7 @@ O copolímero ASA apresenta boas propriedades mecânicas similares as do copolí
 Tabela 1: 
 
 ```eval_rst
-.. figure:: assets/estrutura/Tabela 1 Estrutura.PNG
+.. image:: assets/estrutura/Tabela 1 Estrutura.PNG
   :align: center
   :width: 400
   :alt: Alternative text
@@ -65,7 +65,7 @@ Tabela 1:
  As Ligas de Alumínio 7075-T6 e 6061-T6 são materiais que combinam alta resistência mecânica aliada a leveza, ou seja, ambas apresentam ótimas propriedades mecânicas resultando em peças, estruturas capazes de suportar situações em que há uma aplicação de carga muito alta sobre a mesma. A tabela abaixo mostra um comparativo entre as ligas.
  
  ```eval_rst
-.. figure:: assets/estrutura/Tabela 2 Estrutura.PNG
+.. image:: assets/estrutura/Tabela 2 Estrutura.PNG
   :align: center
   :width: 400
   :alt: Alternative text
@@ -75,7 +75,7 @@ Tabela 1:
 O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico, é caracterizado pela combinação de força e alta ductilidade, que é a habilidade do material em ser dobrado ou moldado.
 
 ```eval_rst
-.. figure:: assets/estrutura/Tabela 3 Estrutura.PNG
+.. image:: assets/estrutura/Tabela 3 Estrutura.PNG
   :align: center
   :width: 400
   :alt: Alternative text
