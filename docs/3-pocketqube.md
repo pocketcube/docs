@@ -18,7 +18,6 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
 .. image:: assets/Energia/diagrama-1-energia.png
   :align: center
   :width: 500
-.. class:: center
 Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
 ```
 
