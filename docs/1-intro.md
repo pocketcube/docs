@@ -80,7 +80,6 @@ engenharia aeroespacial inicialmente.
   :align: center
   :width: 400
 ..
-.. class:: center
 Fig 1: Estrutura dos subsistemas de um satélite
 
 ```
