@@ -37,12 +37,9 @@ A definição dos principais requisitos de EPS do PocketQube para Educação Bá
 ```eval_rst
 .. image:: assets/Energia/diagrama-2-energia.png
   :align: center
-  :width: 400
-  :alt: Alternative text
-
-  ..
-
-  Figura 2. Arquitetura do EPS. Fonte: Adaptado de Wertz & Larson (1999).
+  :width: 500
+..
+Figura 2. Arquitetura do EPS. Fonte: Adaptado de Wertz & Larson (1999).
 
 ```
 
@@ -141,9 +138,7 @@ as baterias apropriadas para satélites são Li-Ion- cobalto e níquel - e as de
 .. image:: assets/Energia/tabela-1-energia.png
   :align: center
   :width: 600
-  :alt: Alternative text
-
-  ..
+..
 
   Tabela 1.  Baterias e suas respectivas aplicações no mercado. Fonte: SAFT (2008).
 
@@ -223,9 +218,7 @@ A seguir, é apresentado um quadro com os principais elementos a serem comparado
 .. image:: assets/Energia/tabela-2-energia.png
   :align: center
   :width: 600
-  :alt: Alternative text
-
-  ..
+..
 
   Tabela 2. Comparativo entre elementos principais das baterias estudadas. Fonte: Adaptado de Oliveira (2018) apud Magalhães (2014); Jeppesen & Thomsen (2001); Trindade (2006).
 
@@ -245,9 +238,7 @@ ponto de operação em tempo real.
 .. image:: assets/Energia/diagrama-3-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
   Figura 3: Topologia de um sistema de potência. Fonte: Do autor (2020).
 
@@ -281,9 +272,7 @@ A tabela a seguir apresenta as diferenças entre as configurações dos barramen
 .. image:: assets/Energia/tabela-3-energia.png
   :align: center
   :width: 600
-  :alt: Alternative text
-
-  ..
+..
 
   Tabela 3: Diferentes técnicas de Regulação de Barramento aplicadas à topologias do tipo DET e PPT. Fonte: De Paula & Magalhães (2019).
 
@@ -322,9 +311,7 @@ dimensionamento dos painéis do PocketQube para Educação Básica está no proc
 .. image:: assets/Energia/diagrama-4-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
   Figura 4. Metodologia para dimensionamento do painel solar. Fonte: Adaptado de De Magalhães & Paula (2019) apud Wertz & Larson (1999).
 
@@ -337,9 +324,7 @@ A potência gerada pelo painel solar (Psa) é calculada a partir dos dados de po
 .. image:: assets/Energia/formula-1-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 
 ```
@@ -354,9 +339,7 @@ constante solar de 1367W/m², é calculada pela equação a seguir.
 .. image:: assets/Energia/formula-2-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 
 ```
@@ -369,9 +352,7 @@ A potência de saída necessária para o começo de vida (Pbol) é calcula pela 
 .. image:: assets/Energia/formula-3-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -381,9 +362,7 @@ A degradação por tempo de vida (Ld) é calculada como:
 .. image:: assets/Energia/formula-4-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -393,9 +372,7 @@ A potência de saída para o fim de vida é dada por:
 .. image:: assets/Energia/formula-5-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -407,9 +384,7 @@ O cálculo da área total de painel solar é a razão entre a potência do paine
 .. image:: assets/Energia/formula-6-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -422,9 +397,7 @@ A massa estimada para o painel é obtida sabendo a potência gerada e a performa
 .. image:: assets/Energia/formula-7-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -437,9 +410,7 @@ terão de ser informados a partir do datasheet da célula solar selecionada, com
 .. image:: assets/Energia/formula-8-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -449,9 +420,7 @@ A quantidade de células em série é dado por,
 .. image:: assets/Energia/formula-9-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -461,9 +430,7 @@ A quantidade de strings em paralelo é dado pela equação a seguir.
 .. image:: assets/Energia/formula-10-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -479,9 +446,7 @@ a seguir (Wertz & Larson, 1999; Oraby et al., 2014).
 .. image:: assets/Energia/formula-11-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -492,9 +457,7 @@ A tensão de barramento é, então, calculada por
 .. image:: assets/Energia/formula-12-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -505,9 +468,7 @@ A depender da órbita que o PocketQube irá se posicionar, é necessário saber 
 .. image:: assets/Energia/formula-13-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -518,9 +479,7 @@ A capacidade de armazenamento da bateria pode ser calculada considerando a profu
 .. image:: assets/Energia/formula-14-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -530,9 +489,7 @@ A capacidade de armazenamento da bateria pode ser calculada considerando a profu
 .. image:: assets/Energia/formula-15-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -544,9 +501,7 @@ Agora, para dimensionar a massa das baterias, é necessário saber o valor de de
 .. image:: assets/Energia/formula-16-energia.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 
 ```
 
@@ -619,9 +574,7 @@ O copolímero ASA apresenta boas propriedades mecânicas similares as do copolí
 .. image:: assets/estrutura/Tabela-1-Estrutura.png
   :align: center
   :width: 500
-  :alt: Alternative text
-
-  ..
+..
   ```
 
 As Ligas de Alumínio 7075-T6 e 6061-T6 são materiais que combinam alta resistência mecânica aliada a leveza, ou seja, ambas apresentam ótimas propriedades mecânicas resultando em peças, estruturas capazes de suportar situações em que há uma aplicação de carga muito alta sobre a mesma. A tabela abaixo mostra um comparativo entre as ligas.
@@ -630,9 +583,7 @@ As Ligas de Alumínio 7075-T6 e 6061-T6 são materiais que combinam alta resist�
 .. image:: assets/estrutura/Tabela-2-Estrutura.png
   :align: center
   :width: 600
-  :alt: Alternative text
-
-  ..
+..
 ```
 O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico, é caracterizado pela combinação de força e alta ductilidade, que é a habilidade do material em ser dobrado ou moldado.
 
@@ -640,9 +591,7 @@ O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico
 .. image:: assets/estrutura/Tabela-3-Estrutura.png
   :align: center
   :width: 400
-  :alt: Alternative text
-
-  ..
+..
 ```
 
 ## Telemetry, Tracking and Command System (TT&C)
