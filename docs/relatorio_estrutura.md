@@ -95,7 +95,7 @@ A estrutura da Estação de solo educacional deverá seguir os seguintes Requisi
       
 ### Materiais
 
-Em falta
+A estrutura da Ground Station pode ser construída utilizando-se materiais semelhantes aos aplicados na estrutura principal, ou seja, o copolímero ABS, o polímero ácido poliláctico (PLA), aço SAE 1020, além do alumínio 6061.
 
 
 ## 3. Sistemas de Lançamento
