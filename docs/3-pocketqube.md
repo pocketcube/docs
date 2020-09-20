@@ -15,12 +15,11 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
 (Céspedes & Escobar, 2018).  
 
 ```eval_rst
-.. image:: assets/Energia/diagrama-1-energia.png
+.. image:: assets/Energia/diagrama-1-energia.pngZ
   :align: center
-  :width: 400
-  :alt: Alternative text
-
-  ..
+  :width: 500
+..  
+Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
 ```
 
 ### Visão geral do suprimento de energia
