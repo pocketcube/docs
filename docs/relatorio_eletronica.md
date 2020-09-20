@@ -1,5 +1,66 @@
-# Eletrônica
+# PocketQube
 
+## On Board data Handling (OBDH)
+// Determinação do placa controladora;  
+// Integraçao com a EPS e o Payload  
+// Comunicação com o TT&C  
+
+
+
+## Telemetry, Traking and Command System (TT&C)
+// Comunicar com a estação de solo;  
+// Transmitir os dados do Payload para a estação de solo;  
+
+## Payload
+// Definir sensores e integrar com OBDH  
+// Ter múltiplas missões  
+
+
+Os payloads são o coração das missões no espaço. Sem os payloads, não haveria sentido em lançar um cubesat. Os payload para esses projetos são: 
+- Observação da terra: Câmeras, sensores térmicos, radar, lasers, entre outros; 
+- Clima espacial: Sondas Lugmir, magnetômetros, entre outros; 
+- Meteorologia: Sensores de radiação eletromagnéticas;
+- Comunicação: Antena e transmissores; 
+- Científico: Medidores de plasma, varia de acordo com objetivo; 
+- GPS: Antenas de Comunicação; 
+- Exploração Espacial: Observação da galáxia e espaço profundo; 
+- Outros: Utilizado para missões diversas até mesmo entretenimento;
+
+
+### Camêra
+O ESP32-CAM é uma versão especial da placa de desenvolvimento baseada no módulo ESP32S WiFi. É o modelo mais compacto da nova geração de placas com ESP32, contendo um slot para acoplamento da câmera e um slot micro-SD para gravar dados de tamanho máximo de 4GB. Muito eficiente, possui o módulo ESP-WROOM-32 que além de conter o ESP32, conta com um cristal de 40MHz. Tem suporte para as interfaces UART, SPI, I2C e PWM. Contém pinos para alimentação e programação, além de 16 portas GPIO, Conversor Analógico/Digital e botão reset ainda mais um LED maior para servir de flash. Abriga uma antena embutida e ainda, um encaixe para antena externa, com propósito de aumentar o alcance. Outro diferencial exclusivo do ESP32 CAM é que além de possuir conexão WiFi nativa, conta também com Bluetooth V4.2 embutido e microprocessador dual core 32-bit LX, de forma a tornar o projeto ainda mais prático e aumentar as possibilidades de uso. Tudo isso em um tamanho de 40.5 x 27 x 4.5 mm e 10 g. Na Figura X é mostrada uma foto do módulo.
+
+```eval_rst
+.. figure:: assets/relatorio_eletronica/ESP32-CAM.png
+  :align: center
+  :width: 400
+  :alt: Alternative text
+
+  ..
+
+  Fig 1: Foto do módulo ESP32-CAM com a câmera OV2640
+
+```
+
+A ESP32-CAM suporta as câmeras OV2640 e OV7670. É possível ver na Tabela Y que o modelo OV2640 possui uma melhor resolução máxima, mas também é possível fazer um downgrade da qualidade se a taxa de transmissão estiver alta demais junto com outros sensores. O pixel deste modelo também é menor o que resulta em melhor qualidade na imagem. Toda essa captação de imagem tem um custo energético, mais que o dobro do consumo de potência em relação ao OV7670. A câmera escolhida para o projeto foi a OV2640 pela qualidade da imagem e pela flexibilidade, permitindo inclusive um downgrade de resolução se a taxa de transmissão for alta em determinado cenário. O valor do conjunto módulo+câmera foi de R$ 49,90.
+
+
+
+
+
+# Estação de Solo
+
+## Comunicação com o Satélite
+// Dar comando para missões do PocketQube;
+// Receber os dados do PocketQube
+
+
+
+
+
+
+
+===================
 ## Satélite
 
 Os componentes eletrônicos são essenciais para a validação do projeto, visto que, ao se lançar o PocketQube no espaço (ou na atmosfera) há a necessidade de aferir diversos dados para a sua manutenção. Além disso o satélite terá a missão de recolher algumas informações atmosféricas e de relevo.
