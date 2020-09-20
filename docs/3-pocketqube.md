@@ -622,7 +622,7 @@ O copolímero ASA apresenta boas propriedades mecânicas similares as do copolí
 ```eval_rst
 .. figure:: assets/estrutura/Tabela-1-Estrutura.png
   :align: center
-  :width: 600
+  :width: 500
   :alt: Alternative text
 
   ..
@@ -643,7 +643,7 @@ O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico
 ```eval_rst
 .. figure:: assets/estrutura/Tabela-3-Estrutura.png
   :align: center
-  :width: 600
+  :width: 400
   :alt: Alternative text
 
   ..

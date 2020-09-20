@@ -90,9 +90,13 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
 
 
 ## Estrutura Analítica do Projeto
+|eap|
+```eval_rst
+|eap|
+```
 
 ```eval_rst
-.. figure:: assets/tap/eap.jpg
+.. |eap|figure:: assets/tap/eap.jpg
   :align: center
   :width: 600
   :alt: Alternative text
