@@ -89,13 +89,13 @@ The "magic number 5" is it enough for web testing?. NIGEL, B. et al.  CHI'03 ext
 
 ## Apêndice 2 - Guia de acessos 
 
-### Acesso ao repositório do backend (servidor & microsserviços)
+### Acesso ao repositório do backend (servidor e microsserviços)
 
 Repositório com a aplicação backend e microsserviços, informações de como rodar, estão descritas no README.md da aplicação
 
 [https://github.com/pocketcube/backend](https://github.com/pocketcube/backend)
 
-### Acesso ao repositório do frontend ( Aplicação mobile)
+### Acesso ao repositório do frontend (aplicação mobile)
 
 Repositório com a aplicação mobile, informações de como rodar, estão descritas no README.md da aplicação
 
