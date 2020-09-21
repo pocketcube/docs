@@ -1,4 +1,4 @@
-# PocketQube
+# Satélite Educacional
 
 ## Electronic Power System (EPS)
 O subsistema de suprimento energético - Electrical Power System (EPS) - é de grande importância, se não vital, para o desenvolvimento de qualquer projeto de satélite, sendo ele 
