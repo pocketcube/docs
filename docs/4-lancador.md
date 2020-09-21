@@ -16,7 +16,7 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 - **Drone Deployer**: pelo drone o sistema de deployer consiste em um encaixe, geralmente na barriga do drone, para que o satélite possa conseguir altitude no voo, a definição da estrutura do deployer impacta em duas decisões estruturais no satélite, a primeira é que definição de ter ou não um paraquedas agregado na estrutura do satélite, caso a missão necessite um tempo de queda livre, o deployer precisa soltar o satélite durante o seu voo, caso não necessite o drone pode retornar com satélite, fazendo o deployer ser semelhante a um sistema de garra. 
 
 ```eval_rst
-.. image:: docs/assets/estrutura/drone-deployer.jpg
+.. image:: assets/estrutura/drone-deployer.jpg
   :align: center
   :width: 400
 ..
@@ -26,7 +26,7 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 
 
 ```eval_rst
-.. image:: docs/assets/estrutura/foguete-deployer.jpg
+.. image:: assets/estrutura/foguete-deployer.jpg
   :align: center
   :width: 500
 ..
@@ -36,7 +36,7 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 
 
 ```eval_rst
-.. image:: docs/assets/estrutura/balao-deployer.jpg
+.. image:: assets/estrutura/balao-deployer.jpg
   :align: center
   :width: 400
 ..

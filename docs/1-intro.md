@@ -78,7 +78,7 @@ engenharia aeroespacial inicialmente.
 ```eval_rst
 .. image:: assets/intro/img1.png
   :align: center
-  :width: 400
+  :width: 500
 ..
 ```
 
