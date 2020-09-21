@@ -5,26 +5,18 @@
 A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o estudantes brasileiros estão estacionados em ciência e matemática, onde esse mesmo desempenho historicamente está classificado entre as últimas posições, com média semelhante aos países menos desenvolvidos do ranking, mesmo tendo PIB e renda per capita maior que desses países, esses dados podem ser traduzidos como: O investimento em educação no Brasil não apresenta bom desempenho, ou que a educação brasileira é falha para com seus estudantes.
 
 ```eval_rst
-.. figure:: assets/tap/pisa2018.jpg
+.. image:: assets/tap/pisa2018.jpg
   :align: center
-  :width: 400
-  :alt: Alternative text
-
-  ..
-
-  Fig 1: Pisa 2018
+  :width: 500
+..
 
 ```
 
 ```eval_rst
-.. figure:: assets/tap/pisa2018-mat.jpg
+.. image:: assets/tap/pisa2018-mat.jpg
   :align: center
-  :width: 400
-  :alt: Alternative text
-
-  ..
-
-  Fig 2: Pisa 2018-mat
+  :width: 500
+..
 
 ```
 
@@ -101,8 +93,6 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
   :width: 500
 ..
 
-  Fig 1: Diagrama de Comunicação.
-
 ```
 
 Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
@@ -113,35 +103,34 @@ Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
   :width: 500
 ..
 
-  Fig 1: Diagrama de Comunicação.
-
 ```
 
 
-## Arquitetura do Projeto
+## Arquitetura de Software do Projeto
 
 Este anexo apresenta uma estrutura da arquitetura do projeto em nível de backend (servidor e banco de dados) e frontend (aplicativo mobile). Vale-se ressaltar que a comunicação entre cliente e servidor ocorre por **JSON (JavaScript Object Notation)**,  que é uma notação bastante utilizada em arquitetura de microsserviços por ser de fácil compreensão, e apresentar vários suportes na parte de parsear o objeto entre o cliente e servidor.
   
 A comunicação acontecerá através dos protocolos WebSockets e MQTT.
 
 ```eval_rst
-.. figure:: assets/software/diagrama_comunicacao.png
+.. image:: assets/software/diagrama_comunicacao.png
   :align: center
-  :width: 400
-  :alt: Alternative text
-
-  ..
-
-  Fig 1: Diagrama de Comunicação.
+  :width: 500
+..
 
 ```
 
 
 A partir desse diagrama, desenvolvemos o diagrama de sequência abaixo, detalhando o fluxo de dados e interações entre cada um dos atores:
-  
-***<div align="center">[inserir imagem aqui]</div>***  
-*<div align="center">Figura 2 - Diagrama de Sequência.</div>*
-  
+
+
+```eval_rst
+.. image:: assets/software/diagrama_sequencia.png
+  :align: center
+  :width: 700
+..
+
+```
 
 ### Backend - Servidor e Banco de Dados
 #### Contexto
@@ -151,8 +140,6 @@ Dado o contexto de alto volume de entrada e saída de dados, e a possibilidade d
 Uma vez adicionado um novo sensor, é também adicionado um novo serviço que irá cuidar desse sensor, recebendo e transmitindo os dados recebidos, seja para outros serviços ou para algum cliente.
   
 Como o nosso cluster de serviços (servidores) estará instalado em uma Raspberry Pi, optamos por uma linguagem leve e escalável, além de ter uma interoperabilidade de fácil configuração com a plataforma.
-  
-Especificamente sobre o serviço de streaming de vídeo, será necessário receber e tratar os dados do vídeo recebido pela câmera da ESP, então uma linguagem que ofereça bibliotecas robustas para essa tarefa foi um diferencial para a escola entre elas.
   
 Por último, e não menos importante, dadas as necessidades, os riscos levantados e tempo para execução do projeto, escolhemos tecnologias que sejam fáceis de configurar, que o grupo possua alguma experiência prévia e que forneça um bom nível de produtividade no desenvolvimento.
 
