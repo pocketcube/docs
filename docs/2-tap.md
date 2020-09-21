@@ -210,11 +210,6 @@ No desenvolvimento da aplicação para iOS serão utilizadas as seguintes tecnol
 - **Danger:** Ferramenta de análise estática de código, funciona muito bem quando integrada à CI.
 - **Github Actions:** Ferramenta de integração contínua para projetos Open Source, gratuita e nativa do GitHub.
 
-
-### Referências
-- MARTIN, Robert. Arquitetura Limpa: o Guia do Artesão Para Estrutura e Design de Software. 1ª Edição. Editora Alta Books, 2019.
-
-
 ## Cronograma
 ```eval_rst
 .. image:: assets/tap/cronograma.jpg
