@@ -12,7 +12,10 @@ A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o e
 
   ..
 
+  Fig 1: Pisa 2018
+
 ```
+
 ```eval_rst
 .. image:: assets/tap/pisa2018-mat.jpg
   :align: center
@@ -20,6 +23,8 @@ A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o e
   :alt: Alternative text
 
   ..
+
+  Fig 2: Pisa 2018-mat
 
 ```
 
