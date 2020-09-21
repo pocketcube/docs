@@ -3,13 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bem vindo à documentação do Pocket Cube!
+Bem vindo à documentação do PocketQube!
 ======================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Conteúdos:
 
-   docs/pocket_cube
-   docs/intro
-   docs/tap
+   docs/1-intro.md
+   docs/2-tap.md
+   docs/3-pocketqube.md
+   docs/4-lancador.md
+   docs/5-estacao-de-solo.md
+   docs/6-apendices.md
+

@@ -94,6 +94,7 @@ Andrew Lucas       Desenvolvedor `andrewlucasgs`_
 Ícaro Oliveira     Desenvolvedor
 Andrew Lucas       Desenvolvedor
 Victor Gomide      Desenvolvedor
+Victor Baptista    Desenvolvedor
 ================== =============
 ```
 

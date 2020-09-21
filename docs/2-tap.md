@@ -5,7 +5,7 @@
 A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o estudantes brasileiros estão estacionados em ciência e matemática, onde esse mesmo desempenho historicamente está classificado entre as últimas posições, com média semelhante aos países menos desenvolvidos do ranking, mesmo tendo PIB e renda per capita maior que desses países, esses dados podem ser traduzidos como: O investimento em educação no Brasil não apresenta bom desempenho, ou que a educação brasileira é falha para com seus estudantes.
 
 ```eval_rst
-.. image:: assets/tap/pisa2018.jpg
+.. figure:: assets/tap/pisa2018.jpg
   :align: center
   :width: 400
   :alt: Alternative text
@@ -13,8 +13,9 @@ A educação no Brasil apresenta números alarmante, segundo o ranking PISA, o e
   ..
 
 ```
+
 ```eval_rst
-.. image:: assets/tap/pisa2018-mat.jpg
+.. figure:: assets/tap/pisa2018-mat.jpg
   :align: center
   :width: 400
   :alt: Alternative text
@@ -95,6 +96,9 @@ Seguindo a linha de miniaturização para a matéria de Projeto Integrador 2 da 
   :align: center
   :width: 500
 ..
+
+  Fig 1: Diagrama de Comunicação.
+
 ```
 
 Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
@@ -104,6 +108,9 @@ Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
   :align: center
   :width: 500
 ..
+
+  Fig 1: Diagrama de Comunicação.
+
 ```
 
 
@@ -114,7 +121,7 @@ Este anexo apresenta uma estrutura da arquitetura do projeto em nível de backen
 A comunicação acontecerá através dos protocolos WebSockets e MQTT.
 
 ```eval_rst
-.. image:: assets/software/diagrama_comunicacao.png
+.. figure:: assets/software/diagrama_comunicacao.png
   :align: center
   :width: 400
   :alt: Alternative text
