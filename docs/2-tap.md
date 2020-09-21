@@ -111,7 +111,7 @@ Com base na EAP foi desenvolvido o diagrama de integrações do projetos.
 
 Este anexo apresenta uma estrutura da arquitetura do projeto em nível de backend (servidor e banco de dados) e frontend (aplicativo mobile). Vale-se ressaltar que a comunicação entre cliente e servidor ocorre por **JSON (JavaScript Object Notation)**,  que é uma notação bastante utilizada em arquitetura de microsserviços por ser de fácil compreensão, e apresentar vários suportes na parte de parsear o objeto entre o cliente e servidor.
   
-A comunicação acontecerá através de protocolos de comunicação HTTP e WebSockets, utilizando as arquitetura REST e MQTT.
+A comunicação acontecerá através dos protocolos WebSockets e MQTT.
 
 ```eval_rst
 .. image:: assets/software/diagrama_comunicacao.png
