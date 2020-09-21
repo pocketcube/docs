@@ -117,10 +117,8 @@ A comunicação acontecerá através de protocolos de comunicação HTTP e WebSo
 .. image:: assets/software/diagrama_comunicacao.png
   :align: center
   :width: 400
-  
-  ..
-  
-  Figura 1 - Diagrama de Comunicação.
+..
+Figura 1 - Diagrama de Comunicação.
 ```
   
 A partir desse diagrama, desenvolvemos o diagrama de sequência abaixo, detalhando o fluxo de dados e interações entre cada um dos atores:
