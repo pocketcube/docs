@@ -378,7 +378,7 @@ A potência de saída para o fim de vida é dada por:
 
 ##### Estimativa de área do painel solar
 
-O cálculo da área total de painel solar é a razão entre a potência do painel solar e a potência de saída do fim de vida. Desta maneira a área total é calculada pelas Equações (7) e (8).
+O cálculo da área total de painel solar é a razão entre a potência do painel solar e a potência de saída do fim de vida. Desta maneira a área total é calculada pelas equações a seguir:
 
 ```eval_rst
 .. image:: assets/Energia/formula-6-energia.png
@@ -404,7 +404,7 @@ A massa estimada para o painel é obtida sabendo a potência gerada e a performa
 ##### Dimensionamento do painel solar
 
 Esta etapa do dimensionamento visa determinar a quantidade de células em série (strings) e quantas strings em paralelo serão necessárias para compor o painel solar. Alguns dados 
-terão de ser informados a partir do datasheet da célula solar selecionada, como potência, corrente e tensão da célula solar. A quantidade de células solares necessárias é dado por
+terão de ser informados a partir do datasheet da célula solar selecionada, como potência, corrente e tensão da célula solar. A quantidade de células solares necessárias é dado por:
 
 ```eval_rst
 .. image:: assets/Energia/formula-8-energia.png
@@ -414,7 +414,7 @@ terão de ser informados a partir do datasheet da célula solar selecionada, com
 
 ```
 
-A quantidade de células em série é dado por,
+A quantidade de células em série é dado por:
 
 ```eval_rst
 .. image:: assets/Energia/formula-9-energia.png
@@ -424,7 +424,7 @@ A quantidade de células em série é dado por,
 
 ```
 
-A quantidade de strings em paralelo é dado pela equação a seguir.
+A quantidade de strings em paralelo é dado pela equação a seguir:
 
 ```eval_rst
 .. image:: assets/Energia/formula-10-energia.png

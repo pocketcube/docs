@@ -15,5 +15,6 @@ Bem vindo à documentação do PocketQube!
    docs/3-pocketqube.md
    docs/4-lancador.md
    docs/5-estacao-de-solo.md
-   docs/6-apendices.md
+   docs/6-bibliografia.md
+   docs/7-apendices.md
 
