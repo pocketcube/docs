@@ -519,6 +519,35 @@ requisito para os próximos pontos de controle.
 
 ## On Board data Handling (OBDH)
 
+O OBDH de um satélite funciona como o cérebro do satélite, pois através é feito todo o processamento das informações enviadas pela estação de solo, ou seja, os comandos dados pela missão, em missões espaciais robusta o OBDH é responsável por:
+
+- Recepção, correção e decodificação de comandos da TT&C;
+- Envio de comando para os payload e EPS e sistema de controle de satélites;
+- Armazenamento de comandos para tempo definido;
+- Armazenamento de comando para posição definidas;
+- Medição de valores discretos como temperatura, voltagem e outros;
+- Coletar informações de barramento de dados seriais;
+- Carregamentos de dados medidos em tempo real;
+- Pré processamento de dados dos payloads;
+- Downlink dos dados de telemetria pela TT&C
+- Gerenciamento e distribuição do sinal de hora;
+
+ou seja, ele atua como um diretor geral de um satélite, pensando em modelos simplificados de satélites e voltando para educação o modelo pode ser trabalhado com microprocessadores ou microcomputadores.
+
+Competições educacionais de satélite, como a ESA Cansat Competition, recomenda o uso de Arduino UNO para OBDH da missão espacial, que cabe perfeitamente para o modelo de Cansat, 350ml de volume, porém em sistemas menores como um PocketQube pode ter uma integração mais complexa, devido a relação direta com a estrutura do satélite o time de eletrônica inicialmente levantou a possibilidade de utilizar uma ESP32, nesse caso no primeiro levantamento foi feito um comparativo entre o Arduino, ESP32 e uma Raspberry PI, já pensando em possibilidades para a estação de solo.
+
+Durante as comparações, foram feitas algumas análises em como seria a arquitetura do OBDH e as atribuições de cada computador de bordo. Caso fosse um microcomputador, como uma Raspberry Pi, o controle de criação de tarefas de coleta de dados poderia ser realizado no próprio satélite. Porém, isso continuaria demandando um servidor para tratar os dados na Ground Station. Com o microprocessador, essa gerência de tratamento de dados poderia ser feito no próprio servidor, com os microprocessadores servindo “dummy components”, apenas coletando e transmitindo os dados para a Ground Station.
+
+Foi utilizado como referência a iniciativa OpenOrbiter, que demonstra o funcionamento de um microcomputador Raspberry Pi em um satélite:
+
+<<Inserir Diagrama Aqui>>
+
+A tabela abaixo mostra um comparativo detalhado entre algumas opções de microcontroladores/microcomputadores que poderiam ser utilizados para o controle dos dados no satélite: 
+
+<<Inserir Tabela Aqui>>
+
+A definição de utilização seguirá os critérios definidos no escopo do projeto, principalmente na questão da integração do sistema e como a facilidade de utilização do mesmo sistema.
+
 ## Estrutura
 A estrutura é um elemento importante para qualquer produto, é a parte do satélite que dá sustentação para todos os componentes embarcados dentro dele, desde os Eletrônicos até o sistema de energia. Portanto o objetivo consiste na análise estrutural de um satélite para a realização de missões espaciais a nível educacional. Deve-se fazer um estudo da estrutura a fim de suportar as cargas às quais o satélite será submetido, o que faz dela um elemento crítico para o projeto. Ela deve garantir que nenhum componente sofra dano e também facilitar a construção e acoplamento dos demais sistemas. Serão realizadas simulações numéricas baseadas no método de elementos finitos visando assegurar a integridade da estrutura.
 
