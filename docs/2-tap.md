@@ -175,6 +175,15 @@ Cada cena do VIP apresenta as seguintes camadas: View, Model, Interactor, Worker
 
 ```
 
+#### Tecnologias
+
+No desenvolvimento da aplicação para iOS serão utilizadas as seguintes tecnologias:
+- **Alamofire:** Framework utilizado para chamadas HTTP. É o mais forte na comunidade de iOS, com cerca de 21 mil estrelas no GitHub.
+- **UIKit:** SDK nativa do iOS utilizada no desenvolvimento de componentes visuais.
+- **SpriteKit:** Permite a visualização/interação em objetos 2D/3D no iOS. É um framework nativo bastante utilizado no desenvolvimento de jogos.
+- **Danger:** Ferramenta de análise estática de código, funciona muito bem quando integrada à CI.
+- **Github Actions:** Ferramenta de integração contínua para projetos Open Source, gratuita e nativa do GitHub.
+
 ### Estrutura de Pacotes
 
 Como os serviços de sensores, como os de temperatura ou umidade, funcionam de forma parecida, eles podem compartilhar da mesma estrutura de pacotes, interagindo com o cliente, como descrito a seguir:
@@ -201,16 +210,8 @@ O diagrama de pacotes fornece uma compreensão das camadas na construção de um
   
 A seguir, estão apresentados os pacotes da aplicação mobile e cada uma das suas camadas. A camada do *coordinator* tem como objetivo controlar a navegação dentro do app. A  *scene* é a estrutura de uma tela propriamente dita (suas responsabilidades serão melhor descritas na próxima subseção). A camada de rede, definida como *network*, é responsável por fazer *requests* HTTP ao servidor. Por fim, as *entities* representam os objetos do mundo real, no caso as informações relacionadas ao nosso satélite.
 
-#### Tecnologias
-
-No desenvolvimento da aplicação para iOS serão utilizadas as seguintes tecnologias:
-- **Alamofire:** Framework utilizado para chamadas HTTP. É o mais forte na comunidade de iOS, com cerca de 21 mil estrelas no GitHub.
-- **UIKit:** SDK nativa do iOS utilizada no desenvolvimento de componentes visuais.
-- **SpriteKit:** Permite a visualização/interação em objetos 2D/3D no iOS. É um framework nativo bastante utilizado no desenvolvimento de jogos.
-- **Danger:** Ferramenta de análise estática de código, funciona muito bem quando integrada à CI.
-- **Github Actions:** Ferramenta de integração contínua para projetos Open Source, gratuita e nativa do GitHub.
-
 ## Cronograma
+
 ```eval_rst
 .. image:: assets/tap/cronograma.jpg
   :align: center

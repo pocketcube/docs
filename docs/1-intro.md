@@ -23,7 +23,7 @@ O New space utilizou de ferramentas espaciais para construir alguns pilares, e t
 possibilitou a países sem nenhuma tradição espacial ter o acesso ao espaço utilizando satélites
 miniaturizados e também satélites amadores.
 
-## Os Pequenos satélites
+## Os pequenos satélites
 
 O termo small satellites, pequenos satélites, se refere a satélites artificiais que pesam
 menos de 180kg, eles são umas das chaves para entender o New Space e a democratização do
@@ -80,8 +80,6 @@ engenharia aeroespacial inicialmente.
   :align: center
   :width: 400
 ..
-Fig 1: Estrutura dos subsistemas de um satélite
-
 ```
 
 Porém como a engenharia aeroespacial é uma engenharia altamente integrativa, ou seja,
