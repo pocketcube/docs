@@ -18,7 +18,7 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 ```eval_rst
 .. image:: assets/estrutura/drone-deployer.jpg
   :align: center
-  :width: 400
+  :width: 300
 ..
 ```
 
@@ -28,7 +28,7 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 ```eval_rst
 .. image:: assets/estrutura/foguete-deployer.jpg
   :align: center
-  :width: 500
+  :width: 300
 ..
 ```
 
@@ -38,6 +38,6 @@ No processo de definição do deployer o sistema de lançamento é crucial para 
 ```eval_rst
 .. image:: assets/estrutura/balao-deployer.jpg
   :align: center
-  :width: 400
+  :width: 300
 ..
 ```
