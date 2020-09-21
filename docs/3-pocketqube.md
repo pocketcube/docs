@@ -674,7 +674,7 @@ Um barômetro mede a pressão atmosférica, o que, alinhado à sensores como tem
 O sensor de qualidade do ar é usado para medições atmosféricas e gestão de poluição atmosférica. O aluno usará esse sensor para ver a qualidade do ar que ele respira no local em que ele está.
 
 ```eval_rst
-.. image:: assets/relatorio_eletronica/barometer_table.png
+.. image:: assets/relatorio_eletronica/air_table.png
   :align: center
   :width: 400
 ..
