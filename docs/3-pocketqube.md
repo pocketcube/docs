@@ -10,7 +10,7 @@ Isso faz com que o EPS de qualquer projeto desse porte deva ser eficiente e flex
 potência do projeto e, ao mesmo tempo, possa ser reutilizado em outras missões, sem que este tenha que ser remodelado (HOLLWEG, 2016).  
 
 A partir dos painéis solares, a energia elétrica é entregue ao módulo de potência e lá é condicionada, transferida e distribuída aos outros usuários do nanosatélites de acordo  
-com suas necessidades de consumo (figura 1). O banco de baterias é necessário para que haja o armazenamento desta energia. É preciso compreender, também, que os sistemas de um  
+com suas necessidades de consumo. O banco de baterias é necessário para que haja o armazenamento desta energia. É preciso compreender, também, que os sistemas de um  
 satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso que a energia entregue seja gerenciada a fim de otimizá-la e garantir a vida útil do equipamento  
 (Céspedes & Escobar, 2018).  
 
@@ -19,7 +19,7 @@ satélite podem não funcionar o tempo todo ou ao mesmo tempo, então é preciso
   :align: center
   :width: 500
 ..
-Figura 1.Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
+Configuração básica do Módulo de Potência. Fonte: Adaptado Céspedes & Escobar (2018).
 ```
 
 ### Visão geral do suprimento de energia
@@ -39,7 +39,7 @@ A definição dos principais requisitos de EPS do PocketQube para Educação Bá
   :align: center
   :width: 500
 ..
-Figura 2. Arquitetura do EPS. Fonte: Adaptado de Wertz & Larson (1999).
+Arquitetura do EPS. Fonte: Adaptado de Wertz & Larson (1999).
 
 ```
 
@@ -313,7 +313,7 @@ dimensionamento dos painéis do PocketQube para Educação Básica está no proc
   :width: 400
 ..
 
-  Figura 4. Metodologia para dimensionamento do painel solar. Fonte: Adaptado de De Magalhães & Paula (2019) apud Wertz & Larson (1999).
+  Metodologia para dimensionamento do painel solar. Fonte: Adaptado de De Magalhães & Paula (2019) apud Wertz & Larson (1999).
 
 ```
 
