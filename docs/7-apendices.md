@@ -69,24 +69,6 @@ Por estes motivos, foi optado pelo iPad como plataforma do nosso frontend. Lembr
 
 Ao longo do projeto, serão realizado testes de usabilidade a partir de protótipos de baixa fidelidade. Segundo Jakob Nielsen, são necessários apenas 5 usuário necessário para identificar problemas na usabilidade de um produto. Desta forma, para cada incremento do nossa aplicação será realizado testes de usabilidade. O relatório deles será apresentando no anexo de cada ponto de controle.
 
-### Referências
-
-Architectural Styles and
-the Design of Network-based Software Architectures. FIELDING, R. 2000. https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm. Acesso em 20/09/2020.
-
-WebSockets. MOZILLA. 2020. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API. Acesso em 20/09/2020.
-
-Getting to know MQTT - Why MQTT is one of the best network protocols for the Internet of Things?. YUAN, M. IBM Developer. 2017. https://developer.ibm.com/articles/iot-mqtt-why-good-for-iot/. Acesso em 20/09/2020.
-
-OpenOrbiter: A Low-Cost, Educational Prototype CubeSat
-Mission Architecture. STRAUB, J. et al. 2013.
-
-MQTT Homepage. MQTT. https://mqtt.org/. Acesso em 20/09/2020.
-
-The iPad in education: uses, benefits, and challenges - A survey of 6057. KARSENTI; THIERRI; FIEVEZ, A. Aurélien Fievez. 2013.
-
-The "magic number 5" is it enough for web testing?. NIGEL, B. et al.  CHI'03 extended abstracts on Human factors in computing systems. 2003.
-
 ## Apêndice 2 - Guia de acessos 
 
 ### Acesso ao repositório do backend (servidor e microsserviços)
