@@ -1,6 +1,6 @@
 # Apêndices
 
-## Apêndice 1 - Decisôes de arquitetura de software
+## Apêndice 1 - Decisões de arquitetura de software
 
 ### Arquitetura cliente-servidor
 
@@ -8,7 +8,7 @@ No início, pela natureza do projeto, já era de conhecimento da equipe que a pr
 
 * REST
 
-Essa arquitetura possui algumas variações, dependendo do fluxo dos dados apresentados. Geralmente, nessa arquitetura, o cliente se comunica com o servidor via HTTP através de uma API na arquitetura REST (REpresentation State Transfer)[1]. Como o nome indica, com esse tipo de API, o servidor irá transferir a representação atual do recurso requisitado.
+Essa arquitetura possui algumas variações, dependendo do fluxo dos dados apresentados. Geralmente, nessa arquitetura, o cliente se comunica com o servidor via HTTP através de uma API na arquitetura REST (REpresentation State Transfer). Como o nome indica, com esse tipo de API, o servidor irá transferir a representação atual do recurso requisitado.
 
 Porém, essa arquitetura não permite utilização de dados em tempo real: como o cliente recebe uma representação dos dados no momento da requisção, ele não é informado caso o estado daquele recurso seja modificado. 
 
@@ -16,7 +16,7 @@ Exemplo: dado momento de tempo T<sub>n</sub> de uma requisição HTTP feita para
 
 * WebSockets
 
-Então, dada a necessidade de ter as informações em tempo real, foi escolhida a tecnologia de WebSockets, segundo a Mozilla: "(...) WebSockets é uma tecnologia avançada que torna possível abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor. Com esta API, você pode enviar mensagens para um servidor e receber respostas orientadas a eventos sem ter que consultar o servidor para obter uma resposta." [2].
+Então, dada a necessidade de ter as informações em tempo real, foi escolhida a tecnologia de WebSockets, segundo a Mozilla: "(...) WebSockets é uma tecnologia avançada que torna possível abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor. Com esta API, você pode enviar mensagens para um servidor e receber respostas orientadas a eventos sem ter que consultar o servidor para obter uma resposta.".
 
 Essa tecnologia encaixou muito bem com a nossa proposta de coletar dados em tempo real e transmiti-los em tempo real sem onerar o servidor, portanto escolhemos ela.
 
@@ -44,9 +44,9 @@ Portanto, essas características guiaram nossa escolha pela abordagem de micross
 
 Como a entrada de dados em um sistema com vários sensores é muito alta, mas nem sempre os servidores podem estar disponíveis para lidar com todos, viu-se necessária colocar uma interface de comunicação de gerenciamento entre a entrada de dados pelos microcontroladores e pelos microserviços.
 
-A estratégia de fila, então, foi a escolha mais apropriada a fazer. Em ambientes IOT, o padrão de envio de mensagens em filas tanto no mercado quanto na academia é o de filas, inclusive já sendo utilizadas em plataformas oferecidas pela IBM [3] ou até mesmo em algumas implementações de CubeSats nas universidades [4].
+A estratégia de fila, então, foi a escolha mais apropriada a fazer. Em ambientes IOT, o padrão de envio de mensagens em filas tanto no mercado quanto na academia é o de filas, inclusive já sendo utilizadas em plataformas oferecidas pela IBM ou até mesmo em algumas implementações de CubeSats nas universidades.
 
-Dentre as várias implementações de gerenciadores, o Message Queue Telemetry Transport (MQTT) [5] se define como o standart para mensageria em IOT e portanto escolhemos essa abordagem.
+Dentre as várias implementações de gerenciadores, o Message Queue Telemetry Transport (MQTT) se define como o standart para mensageria em IOT e portanto escolhemos essa abordagem.
 
 ### Experiência do Usuário e decisão da tecnologia do cliente
 
@@ -61,31 +61,31 @@ Já faz certo tempo que o iPad foi inserido no contexto educacional ao redor do 
 * aumento da colaboração entre estudantes e professores; 
 * alunos podem trabalhar/aprender no seu próprio ritmo; 
 * desenvolvimento de habilidade de TI por parte dos professores; e
-* desenvolvimento de habilidade de TI por parte dos alunos [6].
+* desenvolvimento de habilidade de TI por parte dos alunos.
 
 Por estes motivos, foi optado pelo iPad como plataforma do nosso frontend. Lembrando que devido a nossa arquitetura de backend e microsserviços estas interações podem ser expansíveis para outras plataformas. Entretanto, estas ficam fora do escopo inicial do projeto.
 
 * Testes de usabilidade 
 
-Ao longo do projeto, serão realizado testes de usabilidade a partir de protótipos de baixa fidelidade. Segundo Jakob Nielsen, são necessários apenas 5 usuário necessário para identificar problemas na usabilidade de um produto [7]. Desta forma, para cada incremento do nossa aplicação será realizado testes de usabilidade. O relatório deles será apresentando no anexo de cada ponto de controle.
+Ao longo do projeto, serão realizado testes de usabilidade a partir de protótipos de baixa fidelidade. Segundo Jakob Nielsen, são necessários apenas 5 usuário necessário para identificar problemas na usabilidade de um produto. Desta forma, para cada incremento do nossa aplicação será realizado testes de usabilidade. O relatório deles será apresentando no anexo de cada ponto de controle.
 
 ### Referências
 
-[1] Architectural Styles and
+Architectural Styles and
 the Design of Network-based Software Architectures. FIELDING, R. 2000. https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm. Acesso em 20/09/2020.
 
-[2] WebSockets. MOZILLA. 2020. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API. Acesso em 20/09/2020.
+WebSockets. MOZILLA. 2020. https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API. Acesso em 20/09/2020.
 
-[3] Getting to know MQTT - Why MQTT is one of the best network protocols for the Internet of Things?. YUAN, M. IBM Developer. 2017. https://developer.ibm.com/articles/iot-mqtt-why-good-for-iot/. Acesso em 20/09/2020.
+Getting to know MQTT - Why MQTT is one of the best network protocols for the Internet of Things?. YUAN, M. IBM Developer. 2017. https://developer.ibm.com/articles/iot-mqtt-why-good-for-iot/. Acesso em 20/09/2020.
 
-[4] OpenOrbiter: A Low-Cost, Educational Prototype CubeSat
+OpenOrbiter: A Low-Cost, Educational Prototype CubeSat
 Mission Architecture. STRAUB, J. et al. 2013.
 
-[5] MQTT Homepage. MQTT. https://mqtt.org/. Acesso em 20/09/2020.
+MQTT Homepage. MQTT. https://mqtt.org/. Acesso em 20/09/2020.
 
-[6] The iPad in education: uses, benefits, and challenges - A survey of 6057. KARSENTI; THIERRI; FIEVEZ, A. Aurélien Fievez. 2013.
+The iPad in education: uses, benefits, and challenges - A survey of 6057. KARSENTI; THIERRI; FIEVEZ, A. Aurélien Fievez. 2013.
 
-[7] The "magic number 5" is it enough for web testing?. NIGEL, B. et al.  CHI'03 extended abstracts on Human factors in computing systems. 2003.
+The "magic number 5" is it enough for web testing?. NIGEL, B. et al.  CHI'03 extended abstracts on Human factors in computing systems. 2003.
 
 ## Apêndice 2 - Guia de acessos 
 
