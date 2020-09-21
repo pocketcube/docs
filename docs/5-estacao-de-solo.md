@@ -56,8 +56,6 @@ Em nosso caso de uso, contaremos com 3 diferentes atores, cada um exercendo aç�
 - Servidor: trata e salva dados, além de enviar payload;
 - Dashboard: apresenta dados.
 
-## Tratamento dos dados do satélite
-
 ## Exposição de dados
 
 ### Diagrama NFR para Usabilidade
