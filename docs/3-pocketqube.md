@@ -540,7 +540,14 @@ Durante as comparações, foram feitas algumas análises em como seria a arquite
 
 Foi utilizado como referência a iniciativa OpenOrbiter, que demonstra o funcionamento de um microcomputador Raspberry Pi em um satélite:
 
-<<Inserir Diagrama Aqui>>
+
+```eval_rst
+.. image:: assets/relatorio_eletronica/diagrama-obdh.png
+  :align: center
+  :width: 400
+..
+
+```
 
 A tabela abaixo mostra um comparativo detalhado entre algumas opções de microcontroladores/microcomputadores que poderiam ser utilizados para o controle dos dados no satélite: 
 
