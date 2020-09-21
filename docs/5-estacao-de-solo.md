@@ -43,7 +43,13 @@ dos módulos, e os tipos de aplicações tanto do lado do módulo quanto do serv
 
 ### Diagrama de Caso de Uso
   
-***[inserir imagem aqui]***
+```eval_rst
+.. image:: assets/software/diagrama_caso_uso.png
+  :align: center
+  :width: 500
+..
+
+```
   
 Em nosso caso de uso, contaremos com 3 diferentes atores, cada um exercendo ações diferentes dentro do contexto do PocketQube. São eles:
 - Satélite: coleta, armazena e envia dados;
@@ -56,7 +62,13 @@ Em nosso caso de uso, contaremos com 3 diferentes atores, cada um exercendo aç�
 
 ### Diagrama NFR para Usabilidade
   
-***[inserir imagem aqui]***
+```eval_rst
+.. image:: assets/software/diagrama_nfr_usabilidade.png
+  :align: center
+  :width: 500
+..
+
+```
   
 Para auxílio de definição de metas de requisitos não-funcionais do frontend, que será feito por meio de um aplicativo mobile, foi elaborado um diagrama inicial utilizando a abordagem do NFR Framework para ajudar na visualização de novos requisitos e na resolução de conflitos entre eles. Também será importante ao decorrer do projeto para conferir se os objetivos iniciais estão sendo atendidos.
 
