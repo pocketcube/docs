@@ -544,7 +544,7 @@ Foi utilizado como referência a iniciativa OpenOrbiter, que demonstra o funcion
 ```eval_rst
 .. image:: assets/relatorio_eletronica/diagrama-obdh.png
   :align: center
-  :width: 400
+  :width: 500
 ..
 
 ```
@@ -631,5 +631,61 @@ O aço SAE 1020 geralmente aplicado em peças que vão sofrer esforço mecânico
 ```
 
 ## Telemetry, Tracking and Command System (TT&C)
+Os Sistemas de Telemetria, Rastreamento e Comando (TT&C) de um objeto espacial fornece a conexão de telecomunicações mais vital entre um satélite e a estação terrestre. Os sistemas TT&C fornecem o uplink para comando, downlink para monitorar os vários parâmetros por meio de telemetria e as informações de rastreamento necessárias para o satélite monitorar sua posição em órbita. A Conexão é fornecida usando uma estação de solo e sistemas de recepção de dados de rastreamento e telecomando a bordo, decodificador de bordo e transmissor de telemetria. A ligação de TT&C de um satélite é de suma importância, desde o momento do seu lançamento até o final da missão. 
+
+Os sistemas de telemetria de um satélite com qualificação espacial são grandes e complexos, levando a criação de salas para o monitoramento de satélites. Para satélites educacionais será levantado sistemas simplificados, já que a transição de dados ocorrerá em menores distâncias e sistemas menos complexos.
+
+<Diagrama de Funcionamento>
+
+Em satélites educacionais que não passaram pelo mesmo sistema de TT&C necessita de um tipo de sensor que é sistema de localização (GPS), e microcontroladores. 
+
+Sensor de localização (GPS): O sistema de Localização pode estar associado ou ao satélite ou ao lançador, isso vai depender do modelo de lançamento que será escolhido ao longo do Projeto. Mas adotando as possibilidades de GPS 
+
+
+
+<Tabela Comparação de Tipos de GPS>
+
+Os Microcontroladores usados em no sistema de TT&C tanto no satélite quanto na estação de solo são os mesmos já citados, anteriormente. Usa-se o mesmo microcontrolador dos sensores para o sistema de telemetria do satélite. O sistema de TT&C tem por base seguir o mesmo protocolo de comunicação que será definido no Gateway.
 
 ## Payload
+O payload é responsável pela coleta de dados na missão do satélite, como OBDH funciona como cérebro a carga útil funciona com os sentidos humanos, podendo ser o os olhos, a mão da missão entre outros pontos. Ele tem como objetivo medir todos os dados que o objetivo do satélite tem que atingir. 
+
+### Sensor Umidade e temperatura
+Em missões meteorológicas, é essencial que ocorra medições de umidade e temperatura, para isso deve-se adicionar ao payload sensores capazes de realizar tais medições. Um sensor de temperatura e umidade é um equipamento capaz mensurar a umidade relativa do ar e a temperatura. A seguir segue tabela de comparação com sensores.
+
+```eval_rst
+.. image:: assets/relatorio_eletronica/temperature_table.png
+  :align: center
+  :width: 400
+..
+```
+
+### Sensor Baromêtro
+Um barômetro mede a pressão atmosférica, o que, alinhado à sensores como temperatura e umidade, pode ser significativo na identificação de mudanças climáticas.
+
+```eval_rst
+.. image:: assets/relatorio_eletronica/barometer_table.png
+  :align: center
+  :width: 400
+..
+```
+
+### Sensor de Qualidade do Ar
+O sensor de qualidade do ar é usado para medições atmosféricas e gestão de poluição atmosférica. O aluno usará esse sensor para ver a qualidade do ar que ele respira no local em que ele está.
+
+```eval_rst
+.. image:: assets/relatorio_eletronica/air_table.png
+  :align: center
+  :width: 400
+..
+```
+
+### Câmera
+A câmera é um elemento significativamente importante quando falamos em observações terrestres.  Dentro do contexto do projeto foram pesquisados modelos que câmeras que possivelmente atenderão a demanda necessária. A comparação de alguns modelos pode ser vistas abaixo: 
+
+```eval_rst
+.. image:: assets/relatorio_eletronica/camera_table.png
+  :align: center
+  :width: 400
+..
+```
