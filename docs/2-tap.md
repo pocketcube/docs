@@ -127,7 +127,7 @@ A partir desse diagrama, desenvolvemos o diagrama de sequência abaixo, detalhan
 ```eval_rst
 .. image:: assets/software/diagrama_sequencia.png
   :align: center
-  :width: 700
+  :width: 500
 ..
 
 ```
@@ -157,35 +157,9 @@ Para a comunicação entre os sensores e os serviços, iremos utilizar a estrat�
 
 Os dados coletados pelos sensores serão enviados via LoraWAN para uma ESP32 receiver, na estação de solo, que estará conectada a nossa rede local e enviará os dados para o *message broker*. A partir daí, os microsserviços irão buscar os dados publicados na fila, e irão tratar e transmitirão para o frontend.
 
-
-#### Estrutura de Pacotes
-
-Como os serviços de sensores, como os de temperatura ou umidade, funcionam de forma parecida, eles podem compartilhar da mesma estrutura de pacotes, descrita a seguir:
-  
-***<div align="center">[inserir imagem aqui]</div>***  
-*<div align="center">Figura 3 - Estrutura de pacotes do servidor/microsserviços para os sensores.</div>*
-  
-O pacote *app/* é responsável por agrupar os pacotes *api/* e *queue/* que irão cuidar da recepção dos dados pelo sensor e comunicar com a fila de mensagens, respectivamente.
-  
-O pacote *queue/* é responsável por buscar os dados na fila e comunicar ao pacote *api/* que existe um novo dado para ser processado e enviado.
-  
-O pacote *api/* é responsável por todo o *pipeline* de tratamento, serialização, carga e envio dos dados para o frontend via WebSocket.
-
-
 ### Frontend - Aplicativo Mobile
 
 De acordo com os requisitos levantados, observou-se que muitas escolas utilizam *iPads* no ambiente educacional. Esses tablets permitem que a experiência seja mais imersiva em relação a sites. Dessa forma, optou-se pelo desenvolvimento de uma aplicação mobile em iOS utilizando-se a linguagem **Swift**.
-
-
-#### Arquitetura
-
-O diagrama de pacotes fornece uma compreensão das camadas na construção de um software e sua comunicação. Nesse projeto, foi proposta a *Clean Architecture*, postulada por Robert C. Martin (conhecido como Uncle Bob), na estrutura das telas. E, para a comunicação entre elas, foi proposto um *coordinator*.
-  
-A seguir, estão apresentados os pacotes da aplicação mobile e cada uma das suas camadas. A camada do *coordinator* tem como objetivo controlar a navegação dentro do app. A  *scene* é a estrutura de uma tela propriamente dita (suas responsabilidades serão melhor descritas na próxima subseção). A camada de rede, definida como *network*, é responsável por fazer *requests* HTTP ao servidor. Por fim, as *entities* representam os objetos do mundo real, no caso as informações relacionadas ao nosso satélite.
-  
-***<div align="center">[inserir imagem aqui]</div>***  
-*<div align="center">Figura 4 - Diagrama de pacotes da aplicação mobile.</div>*
-
 
 #### View-Interactor-Presenter (VIP)
 
@@ -193,12 +167,39 @@ O VIP foi proposto a partir dos princípios da *Clean Architecture*. Ele é comp
   
 Cada cena do VIP apresenta as seguintes camadas: View, Model, Interactor, Worker e Presente. Este fato auxilia na divisão de responsabilidades, manutenção e testabilidade. Dessa forma, as cenas representam conjuntos de classe:
 
-***<div align="center">[inserir imagem aqui]</div>***  
-*<div align="center">Figura 5 - Diagrama de classes de uma cena do VIP, na arquitetura mobile.</div>*
-  
-***<div align="center">[inserir imagem aqui]</div>***  
-*<div align="center">Figura 6 - Pacote com estrutura do app.</div>*
+```eval_rst
+.. image:: assets/software/diagrama_classes_cena_vip.png
+  :align: center
+  :width: 500
+..
 
+```
+
+### Estrutura de Pacotes
+
+Como os serviços de sensores, como os de temperatura ou umidade, funcionam de forma parecida, eles podem compartilhar da mesma estrutura de pacotes, interagindo com o cliente, como descrito a seguir:
+  
+```eval_rst
+.. image:: assets/software/diagrama_pacotes.png
+  :align: center
+  :width: 700
+..
+
+```
+
+#### Pacotes Backend
+
+O pacote *app/* é responsável por agrupar os pacotes *api/* e *queue/* que irão cuidar da recepção dos dados pelo sensor e comunicar com a fila de mensagens, respectivamente.
+  
+O pacote *queue/* é responsável por buscar os dados na fila e comunicar ao pacote *api/* que existe um novo dado para ser processado e enviado.
+  
+O pacote *api/* é responsável por todo o *pipeline* de tratamento, serialização, carga e envio dos dados para o frontend via WebSocket.
+
+#### Pacotes Frontend
+
+O diagrama de pacotes fornece uma compreensão das camadas na construção de um software e sua comunicação. Nesse projeto, foi proposta a *Clean Architecture*, postulada por Robert C. Martin (conhecido como Uncle Bob), na estrutura das telas. E, para a comunicação entre elas, foi proposto um *coordinator*.
+  
+A seguir, estão apresentados os pacotes da aplicação mobile e cada uma das suas camadas. A camada do *coordinator* tem como objetivo controlar a navegação dentro do app. A  *scene* é a estrutura de uma tela propriamente dita (suas responsabilidades serão melhor descritas na próxima subseção). A camada de rede, definida como *network*, é responsável por fazer *requests* HTTP ao servidor. Por fim, as *entities* representam os objetos do mundo real, no caso as informações relacionadas ao nosso satélite.
 
 #### Tecnologias
 
