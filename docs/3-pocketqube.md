@@ -551,8 +551,13 @@ Foi utilizado como referência a iniciativa OpenOrbiter, que demonstra o funcion
 
 A tabela abaixo mostra um comparativo detalhado entre algumas opções de microcontroladores/microcomputadores que poderiam ser utilizados para o controle dos dados no satélite: 
 
-<<Inserir Tabela Aqui>>
+```eval_rst
+.. image:: assets/relatorio_eletronica/board_table.png
+  :align: center
+  :width: 500
+..
 
+```
 A definição de utilização seguirá os critérios definidos no escopo do projeto, principalmente na questão da integração do sistema e como a facilidade de utilização do mesmo sistema.
 
 ## Estrutura
@@ -635,13 +640,23 @@ Os Sistemas de Telemetria, Rastreamento e Comando (TT&C) de um objeto espacial f
 
 Os sistemas de telemetria de um satélite com qualificação espacial são grandes e complexos, levando a criação de salas para o monitoramento de satélites. Para satélites educacionais será levantado sistemas simplificados, já que a transição de dados ocorrerá em menores distâncias e sistemas menos complexos.
 
-<Diagrama de Funcionamento>
+```eval_rst
+.. image:: assets/relatorio_eletronica/diagrama_funcionamento.png
+  :align: center
+  :width: 500
+..
+```
 
 Em satélites educacionais que não passaram pelo mesmo sistema de TT&C necessita de um tipo de sensor que é sistema de localização (GPS), e microcontroladores. 
 
 Sensor de localização (GPS): O sistema de Localização pode estar associado ou ao satélite ou ao lançador, isso vai depender do modelo de lançamento que será escolhido ao longo do Projeto. Mas adotando as possibilidades de GPS 
 
-
+```eval_rst
+.. image:: assets/relatorio_eletronica/ttc_table.png
+  :align: center
+  :width: 400
+..
+```
 
 <Tabela Comparação de Tipos de GPS>
 

@@ -22,7 +22,7 @@ from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
-project = 'PocketQube para Educação'
+project = 'Satélite para Educação'
 author = 'Equipe PocketQube'
 
 
